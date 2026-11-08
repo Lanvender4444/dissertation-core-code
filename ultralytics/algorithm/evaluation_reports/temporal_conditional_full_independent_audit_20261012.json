@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "frames": 1655,
+  "domain": "full",
+  "selected": "temporal/tau0.55",
+  "independent_counts": [
+    10585,
+    1131,
+    14260
+  ],
+  "maximum_prediction_error": 0.0,
+  "early_target_frames": 601,
+  "early_target_candidates": 35103,
+  "report_sha256": "b6e7ab4a92b1b4d335512d61271a730b59b54e1eec2f191c5a88dff56bb8b22f",
+  "source_sha256": "fffe6d111a0bb6d1584be85a9f4615a0122d6ffdb5790c7858d92e3df7ee86da",
+  "limitations": "Same previously explored scene, not blind. Past-only same-camera optical image transport, no calibrated ego pose or physical-ID certainty. No new YOLO pass, no new boxes. Scoring-reference OOF only; bbox and pair heads are not OOF. Speed still requires end-to-end verification."
+}

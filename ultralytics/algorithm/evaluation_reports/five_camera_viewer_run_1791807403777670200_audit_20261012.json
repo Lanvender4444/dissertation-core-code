@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "frames": 1655,
+  "native_images_verified": 8275,
+  "counts": [
+    10606,
+    1120,
+    14239,
+    561,
+    7316
+  ],
+  "metrics": {
+    "tp": 10606,
+    "fp": 1120,
+    "fn": 14239,
+    "precision": 0.9044857581442948,
+    "recall": 0.42688669752465286,
+    "f1": 0.5800224221377593,
+    "mixed_identity_groups": 561,
+    "multiview_groups": 7316
+  },
+  "output_objects": 11827,
+  "located_objects": 4396,
+  "located_fraction": 0.3716918914348525,
+  "maximum_bev_replay_error": 0.0,
+  "run": "ultralytics\\experiments\\five_camera_viewer_20261012\\run_1791807403777670200",
+  "run_sha256": {
+    "config.json": "c96275cb875466fcbbca44598d383aa30a5c832225bc685fc2c5bf8671e8a6c9",
+    "metrics.json": "7484ddf330c8be83fb27d78ea67557be0d7ca5fd630526cf58a5b32a5f1f98bf",
+    "objects.jsonl": "86c3e03e222dafee7fefac78ff5168f6360226fec6170b362f969c158a3d8842"
+  },
+  "source_sha256": {
+    "scripts\\audit_five_camera_viewer.py": "a82bfc9b50277db699d5de9ddd41dbeaf742349c7662e0ef7fabe6f0b64ac3a2",
+    "ultralytics\\decided\\final_five_cam.py": "c46a7fc2b2b085eebb1f450abb20e111f592db66f0b821f61faf1bab79e1d4aa",
+    "ultralytics\\research\\five_camera_display.py": "f9ec4f7633503a6ad07847e2c985c2f89230fc36b5b9a1472272c51d930b5cfd"
+  },
+  "limitations": "Post-run native image provenance and object/BEV arithmetic replay. No 3D ground truth, physical-ID certification, seamless panorama or GUI keyboard validation."
+}

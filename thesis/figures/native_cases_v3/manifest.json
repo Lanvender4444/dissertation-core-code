@@ -1,0 +1,574 @@
+{
+  "complete": true,
+  "configuration": "single/independent/tau0.55",
+  "declared_frames": [
+    "00000687",
+    "00000688",
+    "00000641",
+    "00000640",
+    "00000650",
+    "00000705"
+  ],
+  "selection": "Largest active-box area within each defined category in six declared development frames; illustrative selection, not random sampling or an estimate of error-category frequency.",
+  "counts": [
+    {
+      "frame": "00000687",
+      "counts": [
+        16,
+        3,
+        20,
+        0,
+        5
+      ]
+    },
+    {
+      "frame": "00000688",
+      "counts": [
+        16,
+        1,
+        19,
+        0,
+        4
+      ]
+    },
+    {
+      "frame": "00000641",
+      "counts": [
+        17,
+        5,
+        30,
+        1,
+        17
+      ]
+    },
+    {
+      "frame": "00000640",
+      "counts": [
+        20,
+        5,
+        26,
+        2,
+        19
+      ]
+    },
+    {
+      "frame": "00000650",
+      "counts": [
+        20,
+        4,
+        25,
+        1,
+        17
+      ]
+    },
+    {
+      "frame": "00000705",
+      "counts": [
+        7,
+        4,
+        19,
+        0,
+        6
+      ]
+    }
+  ],
+  "available_candidates": {
+    "recovery": 5,
+    "partial": 1,
+    "side": 44,
+    "duplicate": 6,
+    "localisation": 13
+  },
+  "panels": [
+    {
+      "category": "recovery",
+      "alternate": false,
+      "record": {
+        "frame": "00000641",
+        "object_id": 22,
+        "uids": [
+          301
+        ],
+        "sources": [
+          1
+        ],
+        "recovered": true,
+        "camera": 1,
+        "uid": 301,
+        "box": [
+          1763.4661674675822,
+          1012.0870854452801,
+          1862.6036995842596,
+          1273.6876874015993
+        ],
+        "cls": 0,
+        "confidence": 0.47922712564468384,
+        "gt_id": "21",
+        "gt_box": [
+          1757.01,
+          1015.42,
+          1864.16,
+          1290.15
+        ],
+        "best_compatible_iou": 0.86012657428937,
+        "displayed_member_iou": 0.86012657428937,
+        "assigned": true,
+        "competitor": null,
+        "selection_area": 25934.43807818675
+      },
+      "camera": 1,
+      "image": "ultralytics\\mycar\\images\\1\\00000641.png",
+      "image_sha256": "73f7b1e957e1f3dcf6196091856890f795f4cd5e38bbea82337517506a0f3803",
+      "native_crop": [
+        1690,
+        928,
+        1931,
+        1374
+      ],
+      "display_scale": 0.6053811659192825,
+      "gt_box": [
+        1757.01,
+        1015.42,
+        1864.16,
+        1290.15
+      ],
+      "active_boxes": [
+        [
+          "prediction",
+          [
+            1763.4661674675822,
+            1012.0870854452801,
+            1862.6036995842596,
+            1273.6876874015993
+          ],
+          [
+            220,
+            40,
+            50
+          ]
+        ]
+      ]
+    },
+    {
+      "category": "side",
+      "alternate": false,
+      "record": {
+        "frame": "00000688",
+        "object_id": 10,
+        "uids": [
+          267
+        ],
+        "sources": [
+          5
+        ],
+        "recovered": false,
+        "camera": 5,
+        "uid": 267,
+        "box": [
+          525.2963964561427,
+          1042.3304433969352,
+          1061.1413870160025,
+          1283.1599053016075
+        ],
+        "cls": 2,
+        "confidence": 0.9522404670715332,
+        "gt_id": "24",
+        "gt_box": [
+          524.58,
+          1029.41,
+          1048.47,
+          1253.18
+        ],
+        "best_compatible_iou": 0.8113053686917266,
+        "displayed_member_iou": 0.8113053686917266,
+        "assigned": true,
+        "competitor": null,
+        "selection_area": 129047.26074084527
+      },
+      "camera": 5,
+      "image": "ultralytics\\mycar\\images\\5\\00000688.png",
+      "image_sha256": "74f4cb47813b48ca06dd03150a49bef989f917534ee6367c2e86e1b096d659af",
+      "native_crop": [
+        363,
+        953,
+        1223,
+        1360
+      ],
+      "display_scale": 0.5581395348837209,
+      "gt_box": [
+        524.58,
+        1029.41,
+        1048.47,
+        1253.18
+      ],
+      "active_boxes": [
+        [
+          "prediction",
+          [
+            525.2963964561427,
+            1042.3304433969352,
+            1061.1413870160025,
+            1283.1599053016075
+          ],
+          [
+            220,
+            40,
+            50
+          ]
+        ]
+      ]
+    },
+    {
+      "category": "partial",
+      "alternate": false,
+      "record": {
+        "frame": "00000650",
+        "object_id": 17,
+        "uids": [
+          218,
+          129
+        ],
+        "sources": [
+          3,
+          4
+        ],
+        "recovered": false,
+        "camera": 4,
+        "uid": 218,
+        "box": [
+          1672.410900313298,
+          991.2803447090462,
+          1698.3053712160613,
+          1063.2643966201238
+        ],
+        "cls": 0,
+        "confidence": 0.7188408374786377,
+        "gt_id": "28",
+        "gt_box": [
+          1669.87,
+          987.72,
+          1697.7,
+          1059.24
+        ],
+        "best_compatible_iou": 0.8046994523982008,
+        "displayed_member_iou": 0.8046994523982008,
+        "assigned": true,
+        "competitor": null,
+        "selection_area": 1863.9889376743986,
+        "missing_camera": 2,
+        "missing_gt_box": [
+          1695.33,
+          987.04,
+          1719.75,
+          1060.2
+        ]
+      },
+      "camera": 4,
+      "image": "ultralytics\\mycar\\images\\4\\00000650.png",
+      "image_sha256": "7f353857cebe7d960c5783482874147fd37768ade44e246f65e4583fc532df94",
+      "native_crop": [
+        1564,
+        929,
+        1805,
+        1122
+      ],
+      "display_scale": 1.3989637305699483,
+      "gt_box": [
+        1669.87,
+        987.72,
+        1697.7,
+        1059.24
+      ],
+      "active_boxes": [
+        [
+          "prediction",
+          [
+            1672.410900313298,
+            991.2803447090462,
+            1698.3053712160613,
+            1063.2643966201238
+          ],
+          [
+            220,
+            40,
+            50
+          ]
+        ]
+      ]
+    },
+    {
+      "category": "partial",
+      "alternate": true,
+      "record": {
+        "frame": "00000650",
+        "object_id": 17,
+        "uids": [
+          218,
+          129
+        ],
+        "sources": [
+          3,
+          4
+        ],
+        "recovered": false,
+        "camera": 4,
+        "uid": 218,
+        "box": [
+          1672.410900313298,
+          991.2803447090462,
+          1698.3053712160613,
+          1063.2643966201238
+        ],
+        "cls": 0,
+        "confidence": 0.7188408374786377,
+        "gt_id": "28",
+        "gt_box": [
+          1669.87,
+          987.72,
+          1697.7,
+          1059.24
+        ],
+        "best_compatible_iou": 0.8046994523982008,
+        "displayed_member_iou": 0.8046994523982008,
+        "assigned": true,
+        "competitor": null,
+        "selection_area": 1863.9889376743986,
+        "missing_camera": 2,
+        "missing_gt_box": [
+          1695.33,
+          987.04,
+          1719.75,
+          1060.2
+        ]
+      },
+      "camera": 2,
+      "image": "ultralytics\\mycar\\images\\2\\00000650.png",
+      "image_sha256": "40cd1560344f673504a44ecd96b7de2102ab92bc6a7567d8fba15021f1b400b2",
+      "native_crop": [
+        1587,
+        927,
+        1828,
+        1120
+      ],
+      "display_scale": 1.3989637305699483,
+      "gt_box": [
+        1695.33,
+        987.04,
+        1719.75,
+        1060.2
+      ],
+      "active_boxes": []
+    },
+    {
+      "category": "duplicate",
+      "alternate": false,
+      "record": {
+        "frame": "00000687",
+        "object_id": 1,
+        "uids": [
+          1,
+          64,
+          127
+        ],
+        "sources": [
+          2,
+          3,
+          4
+        ],
+        "recovered": false,
+        "camera": 4,
+        "uid": 127,
+        "box": [
+          955.4211543499564,
+          1082.8132599170392,
+          1319.737618381972,
+          1312.7540836921105
+        ],
+        "cls": 2,
+        "confidence": 0.9359468221664429,
+        "gt_id": "19",
+        "gt_box": [
+          963.66,
+          1061.55,
+          1553.62,
+          1320.43
+        ],
+        "best_compatible_iou": 0.5295242389999315,
+        "displayed_member_iou": 0.5295242389999315,
+        "assigned": false,
+        "competitor": {
+          "uid": 128,
+          "src": 4,
+          "box": [
+            1149.930695543275,
+            1080.2574493408204,
+            1561.5492769464174,
+            1317.0921778752256
+          ],
+          "cls": 2,
+          "conf": 0.933318018913269
+        },
+        "selection_area": 83771.2278543428
+      },
+      "camera": 4,
+      "image": "ultralytics\\mycar\\images\\4\\00000687.png",
+      "image_sha256": "0a64f6e7be237fe6a56164144ffb10eb68b87be39fb41ff9c272eb29daf6c4ce",
+      "native_crop": [
+        773,
+        983,
+        1744,
+        1399
+      ],
+      "display_scale": 0.49433573635427397,
+      "gt_box": [
+        963.66,
+        1061.55,
+        1553.62,
+        1320.43
+      ],
+      "active_boxes": [
+        [
+          "prediction",
+          [
+            955.4211543499564,
+            1082.8132599170392,
+            1319.737618381972,
+            1312.7540836921105
+          ],
+          [
+            220,
+            40,
+            50
+          ]
+        ],
+        [
+          "competing prediction",
+          [
+            1149.930695543275,
+            1080.2574493408204,
+            1561.5492769464174,
+            1317.0921778752256
+          ],
+          [
+            225,
+            140,
+            15
+          ]
+        ]
+      ]
+    },
+    {
+      "category": "localisation",
+      "alternate": false,
+      "record": {
+        "frame": "00000640",
+        "object_id": 19,
+        "uids": [
+          10,
+          117
+        ],
+        "sources": [
+          2,
+          3
+        ],
+        "recovered": false,
+        "camera": 2,
+        "uid": 10,
+        "box": [
+          78.33714750501447,
+          1079.2068881108212,
+          243.80081354012736,
+          1337.3909601651703
+        ],
+        "cls": 0,
+        "confidence": 0.5253061056137085,
+        "gt_id": "22",
+        "gt_box": [
+          71.76,
+          1057.1,
+          287.68,
+          1577.65
+        ],
+        "best_compatible_iou": 0.38008153047916937,
+        "displayed_member_iou": 0.38008153047916937,
+        "assigned": false,
+        "competitor": null,
+        "selection_area": 42720.08307398635
+      },
+      "camera": 2,
+      "image": "ultralytics\\mycar\\images\\2\\00000640.png",
+      "image_sha256": "f34bf98a7b970744eb86991965bb5febe9a2479b5afd74601be4fdb04db7d2ed",
+      "native_crop": [
+        6,
+        900,
+        353,
+        1734
+      ],
+      "display_scale": 0.3237410071942446,
+      "gt_box": [
+        71.76,
+        1057.1,
+        287.68,
+        1577.65
+      ],
+      "active_boxes": [
+        [
+          "prediction",
+          [
+            78.33714750501447,
+            1079.2068881108212,
+            243.80081354012736,
+            1337.3909601651703
+          ],
+          [
+            220,
+            40,
+            50
+          ]
+        ]
+      ]
+    }
+  ],
+  "report_sha256": "578128bfb6bd3afdbd6cd78f385883071d7339bdc2b83719c5ba1382d734d583",
+  "renderer_sha256": "3a550f030b2143f653c2fe4ae70b4b4faf522e95abb5380c2571595c35f0fc87",
+  "source_sha256": {
+    "ultralytics\\experiments\\protected_conditional_20261010\\run01\\recovery01\\evaluation_full\\frames\\00000687.json": "300d0a4a677d52f9702a653261c56b061a0f03a8ae29264d8c4481d803b16141",
+    "ultralytics\\mycar\\cam_1\\00000687.xml": "0a8f134e1a1c9780e37ceffe6b92137bd86affca761761217547fbdfc30b454a",
+    "ultralytics\\mycar\\cam_2\\00000687.xml": "443aa3958e25cc47c6d97711bf84e118822b47f3be716d0fe6c43930dafa369d",
+    "ultralytics\\mycar\\cam_3\\00000687.xml": "43c54f9518e8281e6b31c918c428abb7f7e80d8228c35aebf058f47328cba888",
+    "ultralytics\\mycar\\cam_4\\00000687.xml": "45b982dbcb2ffaad88f725ab235e8deb9b001414e750c671ae21532148b704fb",
+    "ultralytics\\mycar\\cam_5\\00000687.xml": "e298f714fc40cc3670b31f35ac0b843cf7178eb47d7ae5d8515b6cc630252fa4",
+    "ultralytics\\experiments\\protected_conditional_20261010\\run01\\recovery01\\evaluation_full\\frames\\00000688.json": "5e94ecf5bcb9bf7a7da6564afa6654df41c1701359c89488c1b4b9144292c4cb",
+    "ultralytics\\mycar\\cam_1\\00000688.xml": "d6a98c23b01c52f4f6a5d04f10f894d85c3ef4c531cecfe43f1b60ea85e3190c",
+    "ultralytics\\mycar\\cam_2\\00000688.xml": "200c7b777687ea53057a3bec1f0d29c920534b46407d50afe13fa4f7d77f5209",
+    "ultralytics\\mycar\\cam_3\\00000688.xml": "5d901cf058015f2f9052100b7cc83916eecda2b8acc85fc31447c8ca56e1bf57",
+    "ultralytics\\mycar\\cam_4\\00000688.xml": "35dbd6e1a5b7db2843a15e805286017964842f2111683e739d7a7cfc9db99114",
+    "ultralytics\\mycar\\cam_5\\00000688.xml": "392ccff47d83e0fedd095106c75809c2f0ea4305ee506a231f62e2625b5b7d7d",
+    "ultralytics\\experiments\\protected_conditional_20261010\\run01\\recovery01\\evaluation_full\\frames\\00000641.json": "d32d2dc07deae4269f48f981564a4e9c176f0159204caf1edf956a014323cef1",
+    "ultralytics\\mycar\\cam_1\\00000641.xml": "d7e08dceddae8297b0c77aa52ce84736c16e3f38f3bf6c9fd752be4d44f98cb9",
+    "ultralytics\\mycar\\cam_2\\00000641.xml": "626740a94b25b039a804e306eef4e65ca908efa2d5bfdb7f1c2c3d55dda037c4",
+    "ultralytics\\mycar\\cam_3\\00000641.xml": "e173b9efd4b2c573d2c2672148b85d44212bf36be98ba616a44af286bde2b90f",
+    "ultralytics\\mycar\\cam_4\\00000641.xml": "27e0e33545358497c5741d281740021312ebfabbeaec51081b903601eefe74a9",
+    "ultralytics\\mycar\\cam_5\\00000641.xml": "8ef7a9b9b0aab358a6c65c7626a830af276c851286dab56b368286c2d067afe7",
+    "ultralytics\\experiments\\protected_conditional_20261010\\run01\\recovery01\\evaluation_full\\frames\\00000640.json": "240ced2f7f65de0da85ec26920b3a84ba07d087b078a717a532a08a456fb1c45",
+    "ultralytics\\mycar\\cam_1\\00000640.xml": "8a4b38d07f30180a0d9da935bc26e67e15ac17951d57d70675a1586b38b81fa3",
+    "ultralytics\\mycar\\cam_2\\00000640.xml": "a0f49f8bfbd6e001dffb178cd8ae3c5353476b30e94d9c5c0d2cb72171eee13f",
+    "ultralytics\\mycar\\cam_3\\00000640.xml": "94359db134158b09104adf7d1686d439d329fa52033734310a7329c91aa7112e",
+    "ultralytics\\mycar\\cam_4\\00000640.xml": "6fb85b8e101f2411908d8f07a6969fd813e867263e02692f32e8af0a2b7da8a9",
+    "ultralytics\\mycar\\cam_5\\00000640.xml": "b81748ecdb84ad6134ba1c37109c919c6203f5d85ad89ea08ed102500eb8fa84",
+    "ultralytics\\experiments\\protected_conditional_20261010\\run01\\recovery01\\evaluation_full\\frames\\00000650.json": "2b6c27071f7098824628dee2d193727d92597afb3d00611850eef6d9e6044031",
+    "ultralytics\\mycar\\cam_1\\00000650.xml": "8e98ee6f24594e4fc649f5745a3dc6cd913dd4e0820d4b3c1b6f41c2780191b8",
+    "ultralytics\\mycar\\cam_2\\00000650.xml": "845ac4b9b866e498da963c6ee7a0aa350f3e7e99a8a77b3fc794981d9a19fe6e",
+    "ultralytics\\mycar\\cam_3\\00000650.xml": "0ebaaef76a708954b886638121de4c762e240ddfde1775a11dcca5aaf0f999de",
+    "ultralytics\\mycar\\cam_4\\00000650.xml": "3f711f509c1c0d7cbaf02fe4e8d6fbc1e75986d34e4e73d2fbdb0616ffaf1695",
+    "ultralytics\\mycar\\cam_5\\00000650.xml": "173ff44f4903bcbb804765f0fab22777533e02b7b803ef450f5fc46473d99fbd",
+    "ultralytics\\experiments\\protected_conditional_20261010\\run01\\recovery01\\evaluation_full\\frames\\00000705.json": "c3e8c4415976e55f2ff13b90ce80c24fa404029bcc358370d735065819f1ae6f",
+    "ultralytics\\mycar\\cam_1\\00000705.xml": "624d2103141a0ada279ea5aa36bf6ce64387ddb72280329de0329e351886df9c",
+    "ultralytics\\mycar\\cam_2\\00000705.xml": "c35e3b317cb9a10140e15fd13ca1883c5a2bb7b2aa0d1038b85ad74ad3096a8a",
+    "ultralytics\\mycar\\cam_3\\00000705.xml": "9bcb261a793a431214b911778e789752634f603067a2075de04ff2209ac3a91f",
+    "ultralytics\\mycar\\cam_4\\00000705.xml": "7edfe5468fab263fcc2be2fd392b9ffafc3838c121ffeae2e3e698021c8409bd",
+    "ultralytics\\mycar\\cam_5\\00000705.xml": "c642ecc4e09f9892534d92dfe240c66cfa38428546186ce886b2b01730a17c45"
+  },
+  "image_sha256": "b9b8927ec52c3a4830b1d944eb06de14e64ba31df430370a03f8c5c10a9c8f47",
+  "limitations": "GT ID and IoU are annotation/evaluation proxies, not independently verified physical identity. No member in one view means no association for this group, not proved detector failure or occlusion. Crops and offline GT overlays never feed inference; no new YOLO or fitting; output boxes are unchanged."
+}

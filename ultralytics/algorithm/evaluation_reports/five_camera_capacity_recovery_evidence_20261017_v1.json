@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "full_sha256": "23d289a95a0a591ba4500061d408d46d12f69d234104757443a1feacb42418f7",
+  "audit_sha256": "2bea09a08efc8f9cd04ca73cdb90083ea596570612a1e06adc07ce305093aef2",
+  "report_sha256": "bc497dad76db1959f25c59069a9f4cf5b7cfad1acad35a90b7158f8477abc113",
+  "gates": {
+    "capacity/P0.9": false,
+    "residual/P0.9": false,
+    "verification/P0.9": false
+  },
+  "guard_late_intervals": {
+    "capacity/P0.9": {
+      "precision": {
+        "low_pp": -4.3069952951009745,
+        "high_pp": -1.951721718309503
+      },
+      "recall": {
+        "low_pp": 1.3187542812751794,
+        "high_pp": 2.0401232623663215
+      },
+      "f1": {
+        "low_pp": 0.6305738488616495,
+        "high_pp": 1.5530613075634399
+      }
+    },
+    "residual/P0.9": {
+      "precision": {
+        "low_pp": -1.9473996522264625,
+        "high_pp": -1.022313081262941
+      },
+      "recall": {
+        "low_pp": 1.4561587879825564,
+        "high_pp": 2.101599503621359
+      },
+      "f1": {
+        "low_pp": 1.1775755677757467,
+        "high_pp": 1.8120267332424662
+      }
+    },
+    "verification/P0.9": {
+      "precision": {
+        "low_pp": -3.049845736846203,
+        "high_pp": -1.8721568609637922
+      },
+      "recall": {
+        "low_pp": 1.6825740055135439,
+        "high_pp": 2.337598740256437
+      },
+      "f1": {
+        "low_pp": 1.1556604889257467,
+        "high_pp": 1.8856974421743633
+      }
+    }
+  },
+  "default_replaced": false
+}

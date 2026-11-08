@@ -1,0 +1,37 @@
+{
+ "purpose": "Plan objective 4 (mAP): standard single-camera AP and protocol-consistent group AP of fused outputs",
+ "single_camera": {
+  "detections": "frozen .05 crop pool, native boxes",
+  "gt": "own camera XML",
+  "ignore": "GT height<25 px",
+  "interpolation": "COCO 101-point",
+  "categories": [
+   "strict",
+   "merged"
+  ]
+ },
+ "group_ap": {
+  "ranking": "max member detector confidence (box-corrected)",
+  "protocol": "dissertation any-member one-to-one",
+  "iou": [
+   0.5,
+   0.55,
+   0.6,
+   0.65,
+   0.7,
+   0.75,
+   0.8,
+   0.85,
+   0.9,
+   0.95
+  ],
+  "configs": [
+   "F5P",
+   "F5R",
+   "A",
+   "B1 (all .05)",
+   "B2 theta5 (all .05)"
+  ]
+ },
+ "caveat": ".05 detector floor truncates the low-score tail; group AP is not comparable with COCO detector AP"
+}

@@ -1,0 +1,147 @@
+{
+  "complete": true,
+  "date": "2026-10-13",
+  "source": "ultralytics\\algorithm\\evaluation_reports\\protected_conditional_full_results_20261010.json",
+  "source_sha256": "578128bfb6bd3afdbd6cd78f385883071d7339bdc2b83719c5ba1382d734d583",
+  "protocol_sha256": "9928e7a688ad63ad041d8998391012ddaf82be93cff3eeca795643d88dfa2f42",
+  "script_sha256": "47d149ac245d7e552795372af6331fc96b21a20f16d4200ccddbe2dc24f5b3a9",
+  "configuration": "single/independent/tau0.55",
+  "replicates": 2000,
+  "seed": 20261013,
+  "method": "Paired non-overlapping blocks of retained chronological observations, percentile 95% intervals; sample the same block indices for both methods. A final shorter block is retained. Recorded index gaps are not assigned synthetic counts. Resampled length can vary; metrics are computed from summed TP/FP/FN, not averaged frame ratios.",
+  "limitations": "Exploratory within one repeatedly studied sequence; full includes fitting data. Block lengths 10/25/50 are sensitivity checks, not an estimated decorrelation time. No correction for repeated selection, physical-ID ambiguity or new-scene generalisation.",
+  "results": {
+    "all": {
+      "frames": 1655,
+      "reference_counts": [
+        10366,
+        1044,
+        14479
+      ],
+      "final_counts": [
+        10606,
+        1120,
+        14239
+      ],
+      "block_sensitivity": {
+        "10": {
+          "precision": {
+            "point_pp": -0.40155564919891473,
+            "low_pp": -0.5449721080255123,
+            "high_pp": -0.269588502617855
+          },
+          "recall": {
+            "point_pp": 0.965989132622258,
+            "low_pp": 0.8151505036859809,
+            "high_pp": 1.1176794501629772
+          },
+          "f1": {
+            "point_pp": 0.8184055015983183,
+            "low_pp": 0.6768618695543397,
+            "high_pp": 0.9620292989765895
+          }
+        },
+        "25": {
+          "precision": {
+            "point_pp": -0.40155564919891473,
+            "low_pp": -0.5367211597627725,
+            "high_pp": -0.28050714491758644
+          },
+          "recall": {
+            "point_pp": 0.965989132622258,
+            "low_pp": 0.8112820220117962,
+            "high_pp": 1.1429623269399662
+          },
+          "f1": {
+            "point_pp": 0.8184055015983183,
+            "low_pp": 0.6721237156887722,
+            "high_pp": 0.9784509740515381
+          }
+        },
+        "50": {
+          "precision": {
+            "point_pp": -0.40155564919891473,
+            "low_pp": -0.5378241911112885,
+            "high_pp": -0.2959407505166917
+          },
+          "recall": {
+            "point_pp": 0.965989132622258,
+            "low_pp": 0.7906414287684544,
+            "high_pp": 1.1518629025647276
+          },
+          "f1": {
+            "point_pp": 0.8184055015983183,
+            "low_pp": 0.6526266913088067,
+            "high_pp": 0.9847033957892316
+          }
+        }
+      }
+    },
+    "guard_late": {
+      "frames": 854,
+      "reference_counts": [
+        4143,
+        342,
+        7079
+      ],
+      "final_counts": [
+        4242,
+        376,
+        6980
+      ],
+      "block_sensitivity": {
+        "10": {
+          "precision": {
+            "point_pp": -0.5166347765251822,
+            "low_pp": -0.7855023865521684,
+            "high_pp": -0.301666588494067
+          },
+          "recall": {
+            "point_pp": 0.8821956870433079,
+            "low_pp": 0.6982064939330854,
+            "high_pp": 1.092984280001943
+          },
+          "f1": {
+            "point_pp": 0.807056687714991,
+            "low_pp": 0.617178469641829,
+            "high_pp": 1.0152847468413626
+          }
+        },
+        "25": {
+          "precision": {
+            "point_pp": -0.5166347765251822,
+            "low_pp": -0.7701326063473746,
+            "high_pp": -0.29068570634793217
+          },
+          "recall": {
+            "point_pp": 0.8821956870433079,
+            "low_pp": 0.6880449987137733,
+            "high_pp": 1.1038804026966773
+          },
+          "f1": {
+            "point_pp": 0.807056687714991,
+            "low_pp": 0.6275628666210223,
+            "high_pp": 0.9957947766111231
+          }
+        },
+        "50": {
+          "precision": {
+            "point_pp": -0.5166347765251822,
+            "low_pp": -0.7843187507357787,
+            "high_pp": -0.3057032261149252
+          },
+          "recall": {
+            "point_pp": 0.8821956870433079,
+            "low_pp": 0.6833504757649446,
+            "high_pp": 1.1169251086498093
+          },
+          "f1": {
+            "point_pp": 0.807056687714991,
+            "low_pp": 0.6376044105364129,
+            "high_pp": 0.9872791849432645
+          }
+        }
+      }
+    }
+  }
+}

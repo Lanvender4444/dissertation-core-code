@@ -1,0 +1,4 @@
+{
+ "purpose": "fisheye contribution by removing Cam1/Cam5 members from frozen F5-P/F5-R outputs",
+ "note": "output-level removal, not a system re-trained without fisheye cameras"
+}

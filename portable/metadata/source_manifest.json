@@ -1,0 +1,1069 @@
+{
+  "complete": true,
+  "seeds": [
+    "ultralytics/decided/final_three_cam.py",
+    "ultralytics/decided/final_three_cam_no_band.py",
+    "ultralytics/decided/final_cam2.py",
+    "ultralytics/decided/final_cam3.py",
+    "ultralytics/decided/final_cam4.py",
+    "ultralytics/decided/final_five_cam.py",
+    "ultralytics/decided/final_spatial_cam.py",
+    "ultralytics/decided/final_immersive_cam.py",
+    "ultralytics/core_algorithms/run_depth_bev.py",
+    "scripts/fit_protected_conditional_recovery.py",
+    "scripts/evaluate_protected_conditional_recovery.py",
+    "scripts/audit_protected_conditional_recovery.py",
+    "scripts/crossfit_protected_reference.py",
+    "scripts/test_protected_conditional_recovery.py",
+    "scripts/test_protected_reference.py",
+    "scripts/experiment_spatial_conditional_recovery.py",
+    "scripts/audit_spatial_conditional_recovery.py",
+    "scripts/render_thesis_screenshots.py",
+    "scripts/build_thesis_figures.py",
+    "scripts/audit_thesis_evidence.py",
+    "scripts/review_thesis_draft.py",
+    "scripts/audit_thesis_cases.py",
+    "scripts/audit_thesis_recovery_intervals.py",
+    "scripts/audit_thesis_illustrations.py",
+    "scripts/build_thesis_review.py",
+    "scripts/inspect_thesis_pdf.py",
+    "scripts/audit_thesis_archive.py"
+  ],
+  "files": {
+    "scripts\\audit_protected_conditional_recovery.py": {
+      "snapshot": "original_layout\\scripts\\audit_protected_conditional_recovery.py",
+      "sha256": "da391375174349ddf8793f12f781a6e7312245487365fbf5db1517ee1a3cd1ad",
+      "bytes": 9150
+    },
+    "scripts\\audit_spatial_conditional_recovery.py": {
+      "snapshot": "original_layout\\scripts\\audit_spatial_conditional_recovery.py",
+      "sha256": "4bb24d8eb4b3393c897a90735de6edcd9c3a6884b59b852174aeb803632082b0",
+      "bytes": 4976
+    },
+    "scripts\\audit_thesis_archive.py": {
+      "snapshot": "original_layout\\scripts\\audit_thesis_archive.py",
+      "sha256": "b4694139697db947a781a60f8a55c37016e4af7afca52252a3cf695b4296a96d",
+      "bytes": 2387
+    },
+    "scripts\\audit_thesis_cases.py": {
+      "snapshot": "original_layout\\scripts\\audit_thesis_cases.py",
+      "sha256": "936f55afd901b82b013ca88045eba5c030f9eeb6cd59fa1ad14ec56887928e45",
+      "bytes": 5980
+    },
+    "scripts\\audit_thesis_evidence.py": {
+      "snapshot": "original_layout\\scripts\\audit_thesis_evidence.py",
+      "sha256": "48500cb8cda3d66324a80a8596a0cba88886a05bd9dfc3039a1e3e3a87eafd53",
+      "bytes": 9011
+    },
+    "scripts\\audit_thesis_illustrations.py": {
+      "snapshot": "original_layout\\scripts\\audit_thesis_illustrations.py",
+      "sha256": "88a4bd4b094b7f0284c26ffe49a1b5a682b9d91ec0c255bdb2cca0dcb226ca0b",
+      "bytes": 6657
+    },
+    "scripts\\audit_thesis_recovery_intervals.py": {
+      "snapshot": "original_layout\\scripts\\audit_thesis_recovery_intervals.py",
+      "sha256": "47d149ac245d7e552795372af6331fc96b21a20f16d4200ccddbe2dc24f5b3a9",
+      "bytes": 4831
+    },
+    "scripts\\build_thesis_figures.py": {
+      "snapshot": "original_layout\\scripts\\build_thesis_figures.py",
+      "sha256": "da06a4ddd92be055211e03a3326e64fc5347359647e7b7db45b0695f964e64c9",
+      "bytes": 17929
+    },
+    "scripts\\build_thesis_review.py": {
+      "snapshot": "original_layout\\scripts\\build_thesis_review.py",
+      "sha256": "0d7e19d6492344545b3370dc28739584def3a9466ba0d9cf567ab89d711fb184",
+      "bytes": 2167
+    },
+    "scripts\\cache_low_conf_no_band.py": {
+      "snapshot": "original_layout\\scripts\\cache_low_conf_no_band.py",
+      "sha256": "d443261fd97fbd717a9a35976be55c8e2b55641afa1abbdc9a4448953bf027ee",
+      "bytes": 5051
+    },
+    "scripts\\crossfit_protected_reference.py": {
+      "snapshot": "original_layout\\scripts\\crossfit_protected_reference.py",
+      "sha256": "d43da0950c18f257541832a0329a89df697aa9b9aae6b3fb9e53b0833d35370f",
+      "bytes": 12877
+    },
+    "scripts\\evaluate_protected_conditional_recovery.py": {
+      "snapshot": "original_layout\\scripts\\evaluate_protected_conditional_recovery.py",
+      "sha256": "0c5f3611acc473f489a08326b59852eaaa7a522eced125fb5e5225c238697212",
+      "bytes": 7765
+    },
+    "scripts\\experiment_cam15_shared.py": {
+      "snapshot": "original_layout\\scripts\\experiment_cam15_shared.py",
+      "sha256": "9150ebd23622ad321bc34006b7f5847b7320555c4f239d5791bfe75348ac356d",
+      "bytes": 17419
+    },
+    "scripts\\experiment_capacity_admission.py": {
+      "snapshot": "original_layout\\scripts\\experiment_capacity_admission.py",
+      "sha256": "76ae49902586d4def3898681224752cdb06ebd2d66bcee6d72858fdf322d6bb9",
+      "bytes": 12169
+    },
+    "scripts\\experiment_detector_roi_admission.py": {
+      "snapshot": "original_layout\\scripts\\experiment_detector_roi_admission.py",
+      "sha256": "77e63456307b4a49f5ca305da56f7d486d30174c8a2327bdd590b3fb864da272",
+      "bytes": 11291
+    },
+    "scripts\\experiment_nonlinear_admission.py": {
+      "snapshot": "original_layout\\scripts\\experiment_nonlinear_admission.py",
+      "sha256": "981d141baf75d60dc0eb98ef5c4a5ccb0c754dc199aea68eb4fc814fac73605a",
+      "bytes": 7967
+    },
+    "scripts\\experiment_recall_recovery.py": {
+      "snapshot": "original_layout\\scripts\\experiment_recall_recovery.py",
+      "sha256": "19cdffab4e44dff399fe62e53dab85af1fdcf3a222138670877162580247c804",
+      "bytes": 16067
+    },
+    "scripts\\experiment_residual_admission.py": {
+      "snapshot": "original_layout\\scripts\\experiment_residual_admission.py",
+      "sha256": "4a65b02af0a9c99255c5a06cf5c5a942ddc2e916045e3df62ad967c9c6ee86cf",
+      "bytes": 12948
+    },
+    "scripts\\experiment_road_support_admission.py": {
+      "snapshot": "original_layout\\scripts\\experiment_road_support_admission.py",
+      "sha256": "66d408c5f3b391ac6eeefe321ecefdde1958cc8dd5984d40111aac0be1f571d7",
+      "bytes": 13636
+    },
+    "scripts\\experiment_spatial_conditional_recovery.py": {
+      "snapshot": "original_layout\\scripts\\experiment_spatial_conditional_recovery.py",
+      "sha256": "44fd20894b199b934804f119f15afe0b5068eee7bbf274e07fdbe7fb0099ee4f",
+      "bytes": 9684
+    },
+    "scripts\\fit_identity_pair_evidence.py": {
+      "snapshot": "original_layout\\scripts\\fit_identity_pair_evidence.py",
+      "sha256": "80cb856a65bcdb63f65f2747eb2b6b1d16fa147a9f60327d70659131e32e0454",
+      "bytes": 5410
+    },
+    "scripts\\fit_protected_conditional_recovery.py": {
+      "snapshot": "original_layout\\scripts\\fit_protected_conditional_recovery.py",
+      "sha256": "9f1c563add052c6772816118070d09996a6dd6c2f2f0a1266fe92cf929416ab9",
+      "bytes": 5871
+    },
+    "scripts\\fit_retained_reference.py": {
+      "snapshot": "original_layout\\scripts\\fit_retained_reference.py",
+      "sha256": "d4c7a9fe0ff9edc2bf3a97b370c950934c48dd9dde4fc80c69ca172c3fae9ecd",
+      "bytes": 9909
+    },
+    "scripts\\inspect_thesis_pdf.py": {
+      "snapshot": "original_layout\\scripts\\inspect_thesis_pdf.py",
+      "sha256": "c50a4a170e18701d6585e428232592731b4071db4a394fdd701a0f5bdf9d88c3",
+      "bytes": 3021
+    },
+    "scripts\\joint_identity_inputs.py": {
+      "snapshot": "original_layout\\scripts\\joint_identity_inputs.py",
+      "sha256": "9435fb7e470e6ae63370bbdeadf34145cc18969470e500b9b21f8f4fc87bdcf7",
+      "bytes": 2495
+    },
+    "scripts\\protected_conditional_inputs.py": {
+      "snapshot": "original_layout\\scripts\\protected_conditional_inputs.py",
+      "sha256": "f32185cc7964d176c4e244d5658b2c38cd45942fbeaf66da0b7b2b498f26cc90",
+      "bytes": 3322
+    },
+    "scripts\\render_thesis_cases.py": {
+      "snapshot": "original_layout\\scripts\\render_thesis_cases.py",
+      "sha256": "3a550f030b2143f653c2fe4ae70b4b4faf522e95abb5380c2571595c35f0fc87",
+      "bytes": 10336
+    },
+    "scripts\\render_thesis_screenshots.py": {
+      "snapshot": "original_layout\\scripts\\render_thesis_screenshots.py",
+      "sha256": "e2d6b947d0d23360d6de8cb9ce6693a6d1b685a5511e152ef0361784402cf9d9",
+      "bytes": 4811
+    },
+    "scripts\\report_low_conf_no_band.py": {
+      "snapshot": "original_layout\\scripts\\report_low_conf_no_band.py",
+      "sha256": "cc689e334b1e6b455a17ce36911d8637cfd4d0491335b0472d5e22667a851fe6",
+      "bytes": 16816
+    },
+    "scripts\\review_thesis_draft.py": {
+      "snapshot": "original_layout\\scripts\\review_thesis_draft.py",
+      "sha256": "cfc9a7e969ccdc638f499e5815cb4aa7eb0317274111b4f362be21e05699286f",
+      "bytes": 7211
+    },
+    "scripts\\test_protected_conditional_recovery.py": {
+      "snapshot": "original_layout\\scripts\\test_protected_conditional_recovery.py",
+      "sha256": "140ac7996b3d23cb523acddf45925f698b0eb7db87f4ed4356f09932dbd8622f",
+      "bytes": 2659
+    },
+    "scripts\\test_protected_reference.py": {
+      "snapshot": "original_layout\\scripts\\test_protected_reference.py",
+      "sha256": "379e5450ac786dfdde1b8b0f5d930e066f98e5f737af35bca2fec501437c093c",
+      "bytes": 1817
+    },
+    "scripts\\validate_spatial_dashboard.py": {
+      "snapshot": "original_layout\\scripts\\validate_spatial_dashboard.py",
+      "sha256": "c16dfa45a11abba668dc1a9b3b1cb28550366a3ffe72cc25e67b41e0527ae4d1",
+      "bytes": 4631
+    },
+    "ultralytics\\core_algorithms\\bev_verification.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\bev_verification.py",
+      "sha256": "04b4fcf34a706d50591e9bb262b512eaa106e535aafab301792ea4534e60111d",
+      "bytes": 6051
+    },
+    "ultralytics\\core_algorithms\\depth_bev_fusion.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\depth_bev_fusion.py",
+      "sha256": "e325a19ba38b9eb2ac0d435a00dcfc6780c8a15758a326527353bcc0d22b15c2",
+      "bytes": 18455
+    },
+    "ultralytics\\core_algorithms\\experiment_global_fusion.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\experiment_global_fusion.py",
+      "sha256": "9071006962c150a0f4327a6af69eb1c60c656920e8934fac9dad777626248be6",
+      "bytes": 13980
+    },
+    "ultralytics\\core_algorithms\\final_pipeline.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\final_pipeline.py",
+      "sha256": "ce3ffa7baa7402b61075c47ff1bf93634b56a785d40b7576aa373e072e4c5e97",
+      "bytes": 1803
+    },
+    "ultralytics\\core_algorithms\\final_viewer.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\final_viewer.py",
+      "sha256": "061349dd3687f0718cf74a8fcb3d5d04377959bf472271400609d841bd356adf",
+      "bytes": 14421
+    },
+    "ultralytics\\core_algorithms\\global_fusion_ideas.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\global_fusion_ideas.py",
+      "sha256": "448fe7db49b022fac5d6baa9443a3cd394b3e1387397051418bcd343b27afd13",
+      "bytes": 3597
+    },
+    "ultralytics\\core_algorithms\\guided_redetect.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\guided_redetect.py",
+      "sha256": "87fc43ed1b1bc983e68ecdca7e59d269b68d28bd2f6092ff2b78dd2fde04fbc1",
+      "bytes": 4076
+    },
+    "ultralytics\\core_algorithms\\legacy_adapter.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\legacy_adapter.py",
+      "sha256": "33f3b60923f3f85efdd8db327c41828402e55981150b953d81677a814bedff99",
+      "bytes": 713
+    },
+    "ultralytics\\core_algorithms\\multiview_dedup.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\multiview_dedup.py",
+      "sha256": "126375a1c808c7698930881fc289a2344fac2b822c8baee11d3b002c2dcb68b8",
+      "bytes": 3627
+    },
+    "ultralytics\\core_algorithms\\multiview_fusion.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\multiview_fusion.py",
+      "sha256": "a3e38e7140367a2752e73532a6a5eeabdcf06cefd0be7185eba6b1a828262e98",
+      "bytes": 10091
+    },
+    "ultralytics\\core_algorithms\\multiview_geometry.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\multiview_geometry.py",
+      "sha256": "1fd4a3b82b134870de1f1febe5ca6e6a09f9c05353cc07951bf79f8187b9478d",
+      "bytes": 7443
+    },
+    "ultralytics\\core_algorithms\\run_depth_bev.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\run_depth_bev.py",
+      "sha256": "ba35b7ae18f76be1b6163cac49c5e1faf61107d47b7924a78c9047eb45f1df3b",
+      "bytes": 21134
+    },
+    "ultralytics\\core_algorithms\\soft_tracking.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\soft_tracking.py",
+      "sha256": "e94f87fcc45276d2ee2a37fa1a0aa45eb2dffa3f10e03a3ed8c4fcdc220b8d91",
+      "bytes": 2690
+    },
+    "ultralytics\\core_algorithms\\stereo_depth.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\stereo_depth.py",
+      "sha256": "e8b4247dcef15fd30cc0361aa5992baa20fa89e5f0fa01a4d20fecc6fc9298c6",
+      "bytes": 6480
+    },
+    "ultralytics\\core_algorithms\\temporal_bev.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\temporal_bev.py",
+      "sha256": "82c3cce23f03ca316d288ab33bfa7f88a54e3932c80fc1badf6042768c24968c",
+      "bytes": 4668
+    },
+    "ultralytics\\core_algorithms\\tri-compare.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\tri-compare.py",
+      "sha256": "cd585dd1e8913fd3d8b29f12d3f1db5029dff54327b07e0b31a446e5af37350d",
+      "bytes": 27440
+    },
+    "ultralytics\\core_algorithms\\tri-eval-gt.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\tri-eval-gt.py",
+      "sha256": "10ef3a165506f3beed8d37b7432c6558966d98e3835669b5c413c9fd2c7f9131",
+      "bytes": 12232
+    },
+    "ultralytics\\core_algorithms\\validate_multiview.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\validate_multiview.py",
+      "sha256": "442ea8dd59929d1e527c2930235a4164358a652a9c332f452b26932777e4c8e2",
+      "bytes": 10892
+    },
+    "ultralytics\\core_algorithms\\yolo_aware_fusion.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\yolo_aware_fusion.py",
+      "sha256": "9cd71294a4cca48cdd77cc3e79d870ac7b593d031dab09e8b87a55b9baac476b",
+      "bytes": 5491
+    },
+    "ultralytics\\core_algorithms\\yolo_hr_detect.py": {
+      "snapshot": "original_layout\\ultralytics\\core_algorithms\\yolo_hr_detect.py",
+      "sha256": "f1b5045fd92f87ac091d49342a933737c6c7f0cc19c97e81a23aadb68f424fb4",
+      "bytes": 7211
+    },
+    "ultralytics\\decided\\band_depth_viewer.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\band_depth_viewer.py",
+      "sha256": "1686cc57ff1d9dcc5db4886da4f3c8146142f8c42c77ef931f9cd1b289e25cf6",
+      "bytes": 15258
+    },
+    "ultralytics\\decided\\final_cam2.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_cam2.py",
+      "sha256": "a9b7ea5edc2ee8e36c532fcc031275321d4efc11e18f2875022dbc4a524120a3",
+      "bytes": 237
+    },
+    "ultralytics\\decided\\final_cam3.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_cam3.py",
+      "sha256": "ca6d1bb7a17960be7f5965eaf96de6b767e5e56ca339ae85b78bd59c16b4672c",
+      "bytes": 237
+    },
+    "ultralytics\\decided\\final_cam4.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_cam4.py",
+      "sha256": "d686a25c074f462d0a1c9c11449198e1f375605bff2470ba52a878bc3bc4d1db",
+      "bytes": 237
+    },
+    "ultralytics\\decided\\final_five_cam.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_five_cam.py",
+      "sha256": "f5523b201b4d67edbb04b617d308bf54ca2ae038d202644d67e6c3abb85d70e6",
+      "bytes": 8352
+    },
+    "ultralytics\\decided\\final_immersive_cam.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_immersive_cam.py",
+      "sha256": "7b6dc0864041a45b55f8cbc499171f145d88f66e8e617c2144e66b5d6f210ac7",
+      "bytes": 9226
+    },
+    "ultralytics\\decided\\final_spatial_cam.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_spatial_cam.py",
+      "sha256": "2bc884ceec76efbdff3e7240d35c449b7bf1ced0d29cba81c9a2830074687ff0",
+      "bytes": 10832
+    },
+    "ultralytics\\decided\\final_three_cam.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_three_cam.py",
+      "sha256": "d61a06a9ffeac8f87edb9cfd367ecb204c9d5218f4420581c22df3693ad32f24",
+      "bytes": 823
+    },
+    "ultralytics\\decided\\final_three_cam_no_band.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\final_three_cam_no_band.py",
+      "sha256": "a366bff7ab9eb7b16696add6cd92da8b624a5334e61a8bea33b2b7720d807960",
+      "bytes": 155
+    },
+    "ultralytics\\decided\\no_band_depth_viewer.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\no_band_depth_viewer.py",
+      "sha256": "a65bd35d5ae9a6814b8be587fb8becc3bdbaf9a3326cb09a69b88305f8d355ed",
+      "bytes": 13858
+    },
+    "ultralytics\\decided\\viewer_evaluation.py": {
+      "snapshot": "original_layout\\ultralytics\\decided\\viewer_evaluation.py",
+      "sha256": "6fb6da15d91329084c5c450aea0f1517a2c9d42dd2eeb5080d7ab4f92798de1f",
+      "bytes": 5996
+    },
+    "ultralytics\\research\\appearance_quality.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\appearance_quality.py",
+      "sha256": "a3ae1a0b05a43ecc00950409eb327e5a9ae344d6532c98f697ba77635dbb9b04",
+      "bytes": 3310
+    },
+    "ultralytics\\research\\box_error_calibration.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\box_error_calibration.py",
+      "sha256": "7421d1012ea96fc07081b7fb3f0feb1cc43fe6d91ed8a7cbb696930207a1988f",
+      "bytes": 3263
+    },
+    "ultralytics\\research\\budget_fovea.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\budget_fovea.py",
+      "sha256": "0039ab45795b271821ce18e681d221fb2097c70ad0df4e7b2e01c7bc87738529",
+      "bytes": 1372
+    },
+    "ultralytics\\research\\cam15_scoring.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\cam15_scoring.py",
+      "sha256": "a06a9280e6cd6b886e4dcc96761ce21f9e36facf47e5632ca9330a4c609c69c6",
+      "bytes": 4190
+    },
+    "ultralytics\\research\\crop_measurement.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\crop_measurement.py",
+      "sha256": "a0b88a63585bf157b4d3e68da4b78cc1f3f6d267ad8726bd8efd1760e95db3cf",
+      "bytes": 2328
+    },
+    "ultralytics\\research\\detector_roi_admission.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\detector_roi_admission.py",
+      "sha256": "661c3df674529144aa24f0d99bfe41aea552b25dba0facc90e087d62937512e7",
+      "bytes": 1155
+    },
+    "ultralytics\\research\\efficient_fusion.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\efficient_fusion.py",
+      "sha256": "e810b9bdf0c6998e1d4800a52343f35a22cc428e99291b8b7e017c1d6f496578",
+      "bytes": 5002
+    },
+    "ultralytics\\research\\five_camera_display.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\five_camera_display.py",
+      "sha256": "f9ec4f7633503a6ad07847e2c985c2f89230fc36b5b9a1472272c51d930b5cfd",
+      "bytes": 9697
+    },
+    "ultralytics\\research\\identity_measurement_policy.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\identity_measurement_policy.py",
+      "sha256": "5cc5e9bdddaa2e365e1ce0c9e0a1a9ebe3acf850127ede1e47ce02035b3a5c1a",
+      "bytes": 2935
+    },
+    "ultralytics\\research\\identity_pair_features.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\identity_pair_features.py",
+      "sha256": "f3d21c5242750d6b5ef1cf7680bf0da46cbce568cc6ad5b1d99e1226fd38afbf",
+      "bytes": 5166
+    },
+    "ultralytics\\research\\immersive_surround.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\immersive_surround.py",
+      "sha256": "747441d87abdaa6a14b20072bf43c384a85e2f6f9305525699c2b11ff89b2365",
+      "bytes": 11545
+    },
+    "ultralytics\\research\\joint_identity_admission.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\joint_identity_admission.py",
+      "sha256": "8e33995f80181d989c6cbb2f192c28d2907a85ebf902d1abb2b0f3957549c493",
+      "bytes": 6433
+    },
+    "ultralytics\\research\\marginal_capacity.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\marginal_capacity.py",
+      "sha256": "05501712faa7752a61bb4d3bc70bc28854b39d5b6f6c5dd2dec434f471c6e15b",
+      "bytes": 2029
+    },
+    "ultralytics\\research\\natural_panorama.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\natural_panorama.py",
+      "sha256": "fc7461a44708b48135cf916efc1c858905279b2a93ee42ec8d37dd5d4ff97601",
+      "bytes": 23122
+    },
+    "ultralytics\\research\\nonlinear_admission.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\nonlinear_admission.py",
+      "sha256": "e432a2be59305657f70fdddaf9f9a9a9c2fa411879043f7a8d0f77aed44e71ff",
+      "bytes": 3427
+    },
+    "ultralytics\\research\\observation_conservation.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\observation_conservation.py",
+      "sha256": "972df54aef2aea825bfd7c95565207473b02949e36c27c8bd78a25ce0034d791",
+      "bytes": 924
+    },
+    "ultralytics\\research\\protected_conditional_recovery.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\protected_conditional_recovery.py",
+      "sha256": "a229cb693d02c372204d0b376ceae22fefedd627080420cc721bdefcd99dba40",
+      "bytes": 4145
+    },
+    "ultralytics\\research\\protected_reference.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\protected_reference.py",
+      "sha256": "9c2a39b11d79f69c41a1f539f499d8c1ff589facaa825137a5a0f5b11a8cab96",
+      "bytes": 3002
+    },
+    "ultralytics\\research\\residual_admission.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\residual_admission.py",
+      "sha256": "3b2773ddb0e8a0d71514a4f087e81471303aa492e8c3810821fe5d4f7c46a925",
+      "bytes": 1465
+    },
+    "ultralytics\\research\\residual_recovery.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\residual_recovery.py",
+      "sha256": "165d74455cb7ada7c72967362cddc8089cf3fc04d07e13b9085e344a2276c310",
+      "bytes": 3620
+    },
+    "ultralytics\\research\\retained_reference.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\retained_reference.py",
+      "sha256": "49441321adbfdfeb452479df0303be140ad07049bf55a78c6bd292ce040f183b",
+      "bytes": 2725
+    },
+    "ultralytics\\research\\road_support.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\road_support.py",
+      "sha256": "b7a6a3663af786e7d118cf5fb6b5e909728a4878e164b05052fb9c1485d9af58",
+      "bytes": 8741
+    },
+    "ultralytics\\research\\road_support_admission.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\road_support_admission.py",
+      "sha256": "e831d4f1c06cd6c89a115636b9004e82aa0908136bc5a253b71a00cebb302963",
+      "bytes": 1593
+    },
+    "ultralytics\\research\\shared_geometry.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\shared_geometry.py",
+      "sha256": "82ea8952296b447ce2f832b8ba81a54207d36839f88f3a7a016742c2d4f9f384",
+      "bytes": 14952
+    },
+    "ultralytics\\research\\shared_geometry_extensions.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\shared_geometry_extensions.py",
+      "sha256": "cab7508f5175353194c682d0d015798cc0236a1c2c2d056d57b2c63c8a667cfe",
+      "bytes": 4258
+    },
+    "ultralytics\\research\\spatial_conditional_recovery.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\spatial_conditional_recovery.py",
+      "sha256": "a29789b055399ae086cf44e81d3d337d8a40084e9f842fc12cd83152bb1d565f",
+      "bytes": 3696
+    },
+    "ultralytics\\research\\spatial_dashboard.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\spatial_dashboard.py",
+      "sha256": "26e901d2cea74c671b73c64be358b617ff7bf0709e7417442be7cb2320602f8c",
+      "bytes": 10227
+    },
+    "ultralytics\\research\\spatial_observation_overlay.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\spatial_observation_overlay.py",
+      "sha256": "c390f046b72cf249c990622ec0937e89dda6a6a093e885deb646322be8abfba2",
+      "bytes": 3935
+    },
+    "ultralytics\\research\\spatial_surround.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\spatial_surround.py",
+      "sha256": "4e7c2df91cc782bd5c9a7bc2f1cff92778496dade394d8c67d8db80fabb5036e",
+      "bytes": 16929
+    },
+    "ultralytics\\research\\validation_inputs.py": {
+      "snapshot": "original_layout\\ultralytics\\research\\validation_inputs.py",
+      "sha256": "1fce27e332d30938931414bfaa51fed75ce4d6055c030c2e226a071bc0719208",
+      "bytes": 2390
+    },
+    "Intrinsics_cam.json": {
+      "snapshot": "original_layout\\Intrinsics_cam.json",
+      "sha256": "2666041599f244acb1f68d1ced85559330464cbdceb7751e8f662652461e9a47",
+      "bytes": 1634
+    },
+    "T_imu_cam(1).json": {
+      "snapshot": "original_layout\\T_imu_cam(1).json",
+      "sha256": "51f3019a4e5db16288374d51058508f8a8e549d45109b30d0d1cc4de4e461aaa",
+      "bytes": 1637
+    },
+    "ultralytics\\pyproject.toml": {
+      "snapshot": "original_layout\\ultralytics\\pyproject.toml",
+      "sha256": "c9916671bbf15b59aac64ba95593e407de8bfa1b291fb3a56eb96d4582dc0d08",
+      "bytes": 392
+    },
+    "ultralytics\\uv.lock": {
+      "snapshot": "original_layout\\ultralytics\\uv.lock",
+      "sha256": "5b8e77df5761263ca3adc8a922830fc557b4ec6b9db50bcf8775728e15189bb7",
+      "bytes": 93854
+    },
+    "ultralytics\\LICENSE": {
+      "snapshot": "original_layout\\ultralytics\\LICENSE",
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e",
+      "bytes": 35184
+    },
+    "thesis\\evidence_snapshot_v6.json": {
+      "snapshot": "original_layout\\thesis\\evidence_snapshot_v6.json",
+      "sha256": "38b4431645169120717ef3c5258ab97f61e27c9ef24e1e96a20e01ed0e7fcccc",
+      "bytes": 18924
+    },
+    "thesis\\recovery_block_intervals_v1.json": {
+      "snapshot": "original_layout\\thesis\\recovery_block_intervals_v1.json",
+      "sha256": "2d5749445211c1dc9dae3d6466916ee863c45c755857bd5b4ed547fa5a099a4f",
+      "bytes": 4857
+    },
+    "thesis\\references.bib": {
+      "snapshot": "original_layout\\thesis\\references.bib",
+      "sha256": "0ee39c4a8d2c94e5667a1c1fc25e12ea57d10448e2d8eb3d967f7f3ab8298169",
+      "bytes": 5901
+    },
+    "scripts/build_submission_bundle.py": {
+      "snapshot": "original_layout\\scripts\\build_submission_bundle.py",
+      "sha256": "2bc99727b1ee4c3f9daa9642887ae6d152af2f06430eadba3a2a6feb8fd4b61f",
+      "bytes": 10371
+    },
+    "scripts/seal_submission_bundle.py": {
+      "snapshot": "original_layout\\scripts\\seal_submission_bundle.py",
+      "sha256": "3498e7e36eaaae936af9113fe127f7c838c49ce5ca0258c74a18dce3ddbc07cb",
+      "bytes": 4843
+    }
+  },
+  "dependency_edges": {
+    "scripts\\audit_thesis_archive.py": [],
+    "scripts\\inspect_thesis_pdf.py": [],
+    "scripts\\build_thesis_review.py": [],
+    "scripts\\audit_thesis_illustrations.py": [],
+    "scripts\\audit_thesis_recovery_intervals.py": [],
+    "scripts\\audit_thesis_cases.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\render_thesis_cases.py",
+      "ultralytics\\decided\\final_five_cam.py"
+    ],
+    "scripts\\experiment_road_support_admission.py": [
+      "scripts\\cache_low_conf_no_band.py",
+      "scripts\\experiment_cam15_shared.py",
+      "scripts\\experiment_capacity_admission.py",
+      "scripts\\experiment_detector_roi_admission.py",
+      "scripts\\experiment_recall_recovery.py",
+      "scripts\\experiment_residual_admission.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\nonlinear_admission.py",
+      "ultralytics\\research\\residual_admission.py",
+      "ultralytics\\research\\road_support_admission.py"
+    ],
+    "scripts\\experiment_detector_roi_admission.py": [
+      "scripts\\cache_low_conf_no_band.py",
+      "scripts\\experiment_cam15_shared.py",
+      "scripts\\experiment_capacity_admission.py",
+      "scripts\\experiment_recall_recovery.py",
+      "scripts\\experiment_residual_admission.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\detector_roi_admission.py",
+      "ultralytics\\research\\nonlinear_admission.py",
+      "ultralytics\\research\\residual_admission.py"
+    ],
+    "ultralytics\\research\\detector_roi_admission.py": [
+      "ultralytics\\research\\appearance_quality.py"
+    ],
+    "ultralytics\\research\\appearance_quality.py": [],
+    "ultralytics\\core_algorithms\\multiview_geometry.py": [],
+    "scripts\\experiment_residual_admission.py": [
+      "scripts\\cache_low_conf_no_band.py",
+      "scripts\\experiment_cam15_shared.py",
+      "scripts\\experiment_recall_recovery.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\appearance_quality.py",
+      "ultralytics\\research\\box_error_calibration.py",
+      "ultralytics\\research\\cam15_scoring.py",
+      "ultralytics\\research\\observation_conservation.py",
+      "ultralytics\\research\\residual_admission.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "ultralytics\\research\\box_error_calibration.py": [],
+    "ultralytics\\research\\residual_admission.py": [
+      "ultralytics\\research\\appearance_quality.py",
+      "ultralytics\\research\\cam15_scoring.py",
+      "ultralytics\\research\\residual_recovery.py"
+    ],
+    "ultralytics\\research\\residual_recovery.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\research\\cam15_scoring.py",
+      "ultralytics\\research\\shared_geometry_extensions.py"
+    ],
+    "ultralytics\\research\\cam15_scoring.py": [],
+    "ultralytics\\core_algorithms\\multiview_fusion.py": [
+      "ultralytics\\core_algorithms\\legacy_adapter.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "ultralytics\\core_algorithms\\legacy_adapter.py": [
+      "ultralytics\\core_algorithms\\tri-compare.py"
+    ],
+    "ultralytics\\core_algorithms\\tri-compare.py": [],
+    "ultralytics\\research\\shared_geometry_extensions.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "ultralytics\\research\\shared_geometry.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "scripts\\cache_low_conf_no_band.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py"
+    ],
+    "ultralytics\\core_algorithms\\validate_multiview.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\tri-compare.py",
+      "ultralytics\\core_algorithms\\tri-eval-gt.py"
+    ],
+    "ultralytics\\core_algorithms\\tri-eval-gt.py": [
+      "ultralytics\\core_algorithms\\tri-compare.py"
+    ],
+    "scripts\\experiment_cam15_shared.py": [
+      "ultralytics\\core_algorithms\\experiment_global_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\core_algorithms\\yolo_hr_detect.py",
+      "ultralytics\\research\\shared_geometry.py",
+      "ultralytics\\research\\validation_inputs.py"
+    ],
+    "ultralytics\\research\\validation_inputs.py": [
+      "ultralytics\\core_algorithms\\experiment_global_fusion.py",
+      "ultralytics\\decided\\band_depth_viewer.py"
+    ],
+    "ultralytics\\decided\\band_depth_viewer.py": [
+      "ultralytics\\core_algorithms\\depth_bev_fusion.py",
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\final_viewer.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\run_depth_bev.py",
+      "ultralytics\\core_algorithms\\stereo_depth.py",
+      "ultralytics\\core_algorithms\\yolo_hr_detect.py",
+      "ultralytics\\decided\\viewer_evaluation.py",
+      "ultralytics\\research\\efficient_fusion.py"
+    ],
+    "ultralytics\\decided\\viewer_evaluation.py": [
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py"
+    ],
+    "ultralytics\\core_algorithms\\final_pipeline.py": [
+      "ultralytics\\core_algorithms\\legacy_adapter.py",
+      "ultralytics\\core_algorithms\\multiview_dedup.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py"
+    ],
+    "ultralytics\\core_algorithms\\multiview_dedup.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "ultralytics\\research\\efficient_fusion.py": [
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\stereo_depth.py",
+      "ultralytics\\core_algorithms\\yolo_hr_detect.py"
+    ],
+    "ultralytics\\core_algorithms\\stereo_depth.py": [
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "ultralytics\\core_algorithms\\yolo_hr_detect.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "ultralytics\\core_algorithms\\depth_bev_fusion.py": [
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\legacy_adapter.py",
+      "ultralytics\\core_algorithms\\multiview_dedup.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\yolo_hr_detect.py"
+    ],
+    "ultralytics\\core_algorithms\\final_viewer.py": [
+      "ultralytics\\core_algorithms\\bev_verification.py",
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "ultralytics\\core_algorithms\\bev_verification.py": [
+      "ultralytics\\core_algorithms\\multiview_dedup.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py"
+    ],
+    "ultralytics\\core_algorithms\\run_depth_bev.py": [
+      "ultralytics\\core_algorithms\\depth_bev_fusion.py",
+      "ultralytics\\core_algorithms\\guided_redetect.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\soft_tracking.py",
+      "ultralytics\\core_algorithms\\stereo_depth.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\core_algorithms\\yolo_aware_fusion.py"
+    ],
+    "ultralytics\\core_algorithms\\soft_tracking.py": [
+      "ultralytics\\core_algorithms\\depth_bev_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\temporal_bev.py"
+    ],
+    "ultralytics\\core_algorithms\\temporal_bev.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "ultralytics\\core_algorithms\\yolo_aware_fusion.py": [
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\legacy_adapter.py",
+      "ultralytics\\core_algorithms\\multiview_dedup.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\yolo_hr_detect.py"
+    ],
+    "ultralytics\\core_algorithms\\guided_redetect.py": [
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\multiview_dedup.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "ultralytics\\core_algorithms\\experiment_global_fusion.py": [
+      "ultralytics\\core_algorithms\\depth_bev_fusion.py",
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\global_fusion_ideas.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\run_depth_bev.py",
+      "ultralytics\\core_algorithms\\stereo_depth.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\core_algorithms\\yolo_hr_detect.py"
+    ],
+    "ultralytics\\core_algorithms\\global_fusion_ideas.py": [
+      "ultralytics\\core_algorithms\\multiview_dedup.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py"
+    ],
+    "scripts\\experiment_recall_recovery.py": [
+      "scripts\\cache_low_conf_no_band.py",
+      "scripts\\experiment_cam15_shared.py",
+      "scripts\\report_low_conf_no_band.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\cam15_scoring.py",
+      "ultralytics\\research\\residual_recovery.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "scripts\\report_low_conf_no_band.py": [
+      "scripts\\cache_low_conf_no_band.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py"
+    ],
+    "ultralytics\\research\\observation_conservation.py": [],
+    "ultralytics\\research\\nonlinear_admission.py": [],
+    "scripts\\experiment_capacity_admission.py": [
+      "scripts\\cache_low_conf_no_band.py",
+      "scripts\\experiment_cam15_shared.py",
+      "scripts\\experiment_nonlinear_admission.py",
+      "scripts\\experiment_recall_recovery.py",
+      "scripts\\experiment_residual_admission.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\marginal_capacity.py",
+      "ultralytics\\research\\nonlinear_admission.py",
+      "ultralytics\\research\\residual_admission.py"
+    ],
+    "ultralytics\\research\\marginal_capacity.py": [],
+    "scripts\\experiment_nonlinear_admission.py": [
+      "scripts\\cache_low_conf_no_band.py",
+      "scripts\\experiment_cam15_shared.py",
+      "scripts\\experiment_recall_recovery.py",
+      "scripts\\experiment_residual_admission.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\nonlinear_admission.py",
+      "ultralytics\\research\\residual_admission.py"
+    ],
+    "ultralytics\\research\\road_support_admission.py": [
+      "ultralytics\\research\\appearance_quality.py",
+      "ultralytics\\research\\road_support.py"
+    ],
+    "ultralytics\\research\\road_support.py": [
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "scripts\\render_thesis_cases.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\decided\\final_five_cam.py"
+    ],
+    "ultralytics\\decided\\final_five_cam.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\fit_protected_conditional_recovery.py",
+      "scripts\\protected_conditional_inputs.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\five_camera_display.py",
+      "ultralytics\\research\\natural_panorama.py",
+      "ultralytics\\research\\protected_conditional_recovery.py"
+    ],
+    "scripts\\protected_conditional_inputs.py": [
+      "scripts\\crossfit_protected_reference.py",
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\joint_identity_inputs.py",
+      "ultralytics\\research\\identity_pair_features.py",
+      "ultralytics\\research\\joint_identity_admission.py",
+      "ultralytics\\research\\protected_reference.py",
+      "ultralytics\\research\\retained_reference.py"
+    ],
+    "scripts\\joint_identity_inputs.py": [
+      "scripts\\experiment_residual_admission.py",
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\fit_identity_pair_evidence.py",
+      "ultralytics\\research\\crop_measurement.py",
+      "ultralytics\\research\\identity_pair_features.py",
+      "ultralytics\\research\\joint_identity_admission.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "ultralytics\\research\\identity_pair_features.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py"
+    ],
+    "ultralytics\\research\\joint_identity_admission.py": [
+      "ultralytics\\research\\appearance_quality.py",
+      "ultralytics\\research\\cam15_scoring.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "ultralytics\\research\\crop_measurement.py": [
+      "ultralytics\\research\\budget_fovea.py"
+    ],
+    "ultralytics\\research\\budget_fovea.py": [],
+    "scripts\\fit_identity_pair_evidence.py": [
+      "scripts\\experiment_residual_admission.py",
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\crop_measurement.py",
+      "ultralytics\\research\\identity_pair_features.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "ultralytics\\research\\retained_reference.py": [
+      "ultralytics\\research\\detector_roi_admission.py",
+      "ultralytics\\research\\residual_admission.py"
+    ],
+    "ultralytics\\research\\protected_reference.py": [
+      "ultralytics\\research\\nonlinear_admission.py",
+      "ultralytics\\research\\residual_recovery.py",
+      "ultralytics\\research\\retained_reference.py"
+    ],
+    "scripts\\crossfit_protected_reference.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\fit_retained_reference.py",
+      "scripts\\joint_identity_inputs.py",
+      "ultralytics\\research\\marginal_capacity.py",
+      "ultralytics\\research\\protected_reference.py",
+      "ultralytics\\research\\retained_reference.py"
+    ],
+    "scripts\\fit_retained_reference.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\research\\marginal_capacity.py",
+      "ultralytics\\research\\retained_reference.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "ultralytics\\research\\protected_conditional_recovery.py": [
+      "ultralytics\\research\\identity_measurement_policy.py",
+      "ultralytics\\research\\joint_identity_admission.py",
+      "ultralytics\\research\\protected_reference.py",
+      "ultralytics\\research\\residual_recovery.py"
+    ],
+    "ultralytics\\research\\identity_measurement_policy.py": [
+      "ultralytics\\research\\joint_identity_admission.py"
+    ],
+    "scripts\\fit_protected_conditional_recovery.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\protected_conditional_inputs.py",
+      "ultralytics\\research\\marginal_capacity.py",
+      "ultralytics\\research\\protected_conditional_recovery.py"
+    ],
+    "ultralytics\\research\\five_camera_display.py": [
+      "ultralytics\\core_algorithms\\multiview_dedup.py",
+      "ultralytics\\research\\shared_geometry.py"
+    ],
+    "ultralytics\\research\\natural_panorama.py": [
+      "ultralytics\\research\\five_camera_display.py"
+    ],
+    "scripts\\review_thesis_draft.py": [],
+    "scripts\\audit_thesis_evidence.py": [],
+    "scripts\\build_thesis_figures.py": [],
+    "scripts\\render_thesis_screenshots.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\validate_spatial_dashboard.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\decided\\final_five_cam.py",
+      "ultralytics\\research\\five_camera_display.py",
+      "ultralytics\\research\\natural_panorama.py",
+      "ultralytics\\research\\spatial_dashboard.py",
+      "ultralytics\\research\\spatial_surround.py"
+    ],
+    "ultralytics\\research\\spatial_surround.py": [
+      "ultralytics\\research\\five_camera_display.py",
+      "ultralytics\\research\\spatial_observation_overlay.py"
+    ],
+    "ultralytics\\research\\spatial_observation_overlay.py": [
+      "ultralytics\\research\\five_camera_display.py"
+    ],
+    "scripts\\validate_spatial_dashboard.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\decided\\final_five_cam.py",
+      "ultralytics\\research\\five_camera_display.py",
+      "ultralytics\\research\\spatial_dashboard.py",
+      "ultralytics\\research\\spatial_surround.py"
+    ],
+    "ultralytics\\research\\spatial_dashboard.py": [
+      "ultralytics\\research\\five_camera_display.py"
+    ],
+    "scripts\\audit_spatial_conditional_recovery.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\experiment_spatial_conditional_recovery.py",
+      "scripts\\protected_conditional_inputs.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\protected_conditional_recovery.py",
+      "ultralytics\\research\\spatial_conditional_recovery.py"
+    ],
+    "ultralytics\\research\\spatial_conditional_recovery.py": [
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py"
+    ],
+    "scripts\\experiment_spatial_conditional_recovery.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\fit_protected_conditional_recovery.py",
+      "scripts\\protected_conditional_inputs.py",
+      "ultralytics\\research\\protected_conditional_recovery.py",
+      "ultralytics\\research\\spatial_conditional_recovery.py"
+    ],
+    "scripts\\test_protected_reference.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\research\\protected_reference.py",
+      "ultralytics\\research\\residual_recovery.py"
+    ],
+    "scripts\\test_protected_conditional_recovery.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\research\\protected_conditional_recovery.py"
+    ],
+    "scripts\\audit_protected_conditional_recovery.py": [
+      "scripts\\evaluate_protected_conditional_recovery.py",
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\fit_protected_conditional_recovery.py",
+      "scripts\\protected_conditional_inputs.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\research\\protected_conditional_recovery.py",
+      "ultralytics\\research\\protected_reference.py"
+    ],
+    "scripts\\evaluate_protected_conditional_recovery.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "scripts\\fit_protected_conditional_recovery.py",
+      "scripts\\protected_conditional_inputs.py",
+      "ultralytics\\research\\protected_conditional_recovery.py"
+    ],
+    "ultralytics\\decided\\final_immersive_cam.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\decided\\final_five_cam.py",
+      "ultralytics\\research\\five_camera_display.py",
+      "ultralytics\\research\\immersive_surround.py"
+    ],
+    "ultralytics\\research\\immersive_surround.py": [
+      "ultralytics\\research\\five_camera_display.py"
+    ],
+    "ultralytics\\decided\\final_spatial_cam.py": [
+      "scripts\\experiment_road_support_admission.py",
+      "ultralytics\\core_algorithms\\validate_multiview.py",
+      "ultralytics\\decided\\final_five_cam.py",
+      "ultralytics\\research\\five_camera_display.py",
+      "ultralytics\\research\\natural_panorama.py",
+      "ultralytics\\research\\spatial_dashboard.py",
+      "ultralytics\\research\\spatial_surround.py"
+    ],
+    "ultralytics\\decided\\final_cam4.py": [
+      "ultralytics\\core_algorithms\\final_viewer.py"
+    ],
+    "ultralytics\\decided\\final_cam3.py": [
+      "ultralytics\\core_algorithms\\final_viewer.py"
+    ],
+    "ultralytics\\decided\\final_cam2.py": [
+      "ultralytics\\core_algorithms\\final_viewer.py"
+    ],
+    "ultralytics\\decided\\final_three_cam_no_band.py": [
+      "ultralytics\\decided\\no_band_depth_viewer.py"
+    ],
+    "ultralytics\\decided\\no_band_depth_viewer.py": [
+      "ultralytics\\core_algorithms\\final_pipeline.py",
+      "ultralytics\\core_algorithms\\final_viewer.py",
+      "ultralytics\\core_algorithms\\multiview_fusion.py",
+      "ultralytics\\core_algorithms\\multiview_geometry.py",
+      "ultralytics\\core_algorithms\\stereo_depth.py",
+      "ultralytics\\core_algorithms\\yolo_hr_detect.py",
+      "ultralytics\\decided\\band_depth_viewer.py",
+      "ultralytics\\decided\\no_band_depth_viewer.py",
+      "ultralytics\\decided\\viewer_evaluation.py"
+    ],
+    "ultralytics\\decided\\final_three_cam.py": [
+      "ultralytics\\core_algorithms\\final_viewer.py",
+      "ultralytics\\decided\\band_depth_viewer.py",
+      "ultralytics\\decided\\no_band_depth_viewer.py"
+    ]
+  },
+  "external_imports": [
+    "PIL",
+    "argparse",
+    "collections",
+    "copy",
+    "ctypes",
+    "cv2",
+    "difflib",
+    "glob",
+    "hashlib",
+    "heapq",
+    "importlib",
+    "itertools",
+    "json",
+    "math",
+    "numpy",
+    "os",
+    "pathlib",
+    "pdfplumber",
+    "pickle",
+    "platform",
+    "pypandoc",
+    "re",
+    "reportlab",
+    "scipy",
+    "sklearn",
+    "subprocess",
+    "svglib",
+    "sys",
+    "threadpoolctl",
+    "time",
+    "torch",
+    "tqdm",
+    "types",
+    "ultralytics",
+    "unittest",
+    "xml"
+  ],
+  "python_source_count": 94,
+  "scope": "Exact local import closure plus explicit dynamic .py literals. External packages are dependencies, not copied implementations. Full pipeline still needs original external data/caches/models.",
+  "additional_packaging_tools": [
+    "scripts/build_submission_bundle.py",
+    "scripts/seal_submission_bundle.py"
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "complete": true,
+  "results": {
+    "coarse": {
+      "all": {
+        "factored/tau0.55": {
+          "metrics": {
+            "tp": 10457,
+            "fp": 1069,
+            "fn": 14388,
+            "precision": 0.907253166753427,
+            "recall": 0.42088951499295635,
+            "f1": 0.5750185587418548,
+            "mixed_identity_groups": 561,
+            "multiview_groups": 7316
+          },
+          "baseline": {
+            "tp": 10606,
+            "fp": 1120,
+            "fn": 14239,
+            "precision": 0.9044857581442948,
+            "recall": 0.42688669752465286,
+            "f1": 0.5800224221377593,
+            "mixed_identity_groups": 561,
+            "multiview_groups": 7316
+          },
+          "delta_pp": {
+            "precision": 0.27674086091322714,
+            "recall": -0.599718253169651,
+            "f1": -0.5003863395904529
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": 0.15914240412577135,
+              "high_pp": 0.4062571945410697
+            },
+            "recall": {
+              "low_pp": -0.7518908846051457,
+              "high_pp": -0.456552103815454
+            },
+            "f1": {
+              "low_pp": -0.638139135133581,
+              "high_pp": -0.3718613030657185
+            }
+          },
+          "frames": 1655
+        },
+        "spatial_factored/tau0.55": {
+          "metrics": {
+            "tp": 10452,
+            "fp": 1067,
+            "fn": 14393,
+            "precision": 0.9073704314610643,
+            "recall": 0.4206882672569934,
+            "f1": 0.5748542514574855,
+            "mixed_identity_groups": 561,
+            "multiview_groups": 7316
+          },
+          "baseline": {
+            "tp": 10606,
+            "fp": 1120,
+            "fn": 14239,
+            "precision": 0.9044857581442948,
+            "recall": 0.42688669752465286,
+            "f1": 0.5800224221377593,
+            "mixed_identity_groups": 561,
+            "multiview_groups": 7316
+          },
+          "delta_pp": {
+            "precision": 0.28846733167695593,
+            "recall": -0.6198430267659483,
+            "f1": -0.5168170680273865
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": 0.14720967065712576,
+              "high_pp": 0.4304166860100194
+            },
+            "recall": {
+              "low_pp": -0.7653330259269593,
+              "high_pp": -0.4816756620773016
+            },
+            "f1": {
+              "low_pp": -0.6468172193855798,
+              "high_pp": -0.3959420695292875
+            }
+          },
+          "frames": 1655
+        }
+      },
+      "guard_late": {
+        "factored/tau0.55": {
+          "metrics": {
+            "tp": 4180,
+            "fp": 353,
+            "fn": 7042,
+            "precision": 0.9221266269578645,
+            "recall": 0.37248262341828553,
+            "f1": 0.5306251983497303,
+            "mixed_identity_groups": 117,
+            "multiview_groups": 2700
+          },
+          "baseline": {
+            "tp": 4242,
+            "fp": 376,
+            "fn": 6980,
+            "precision": 0.9185794716327415,
+            "recall": 0.37800748529673855,
+            "f1": 0.5356060606060605,
+            "mixed_identity_groups": 117,
+            "multiview_groups": 2700
+          },
+          "delta_pp": {
+            "precision": 0.35471553251230636,
+            "recall": -0.5524861878453025,
+            "f1": -0.49808622563302096
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": 0.1445409005177617,
+              "high_pp": 0.5870109104862254
+            },
+            "recall": {
+              "low_pp": -0.7731346843478148,
+              "high_pp": -0.36260472216102013
+            },
+            "f1": {
+              "low_pp": -0.7012543115594366,
+              "high_pp": -0.31653528498517747
+            }
+          },
+          "frames": 854
+        },
+        "spatial_factored/tau0.55": {
+          "metrics": {
+            "tp": 4173,
+            "fp": 350,
+            "fn": 7049,
+            "precision": 0.9226177315940747,
+            "recall": 0.3718588486900731,
+            "f1": 0.530073039060019,
+            "mixed_identity_groups": 117,
+            "multiview_groups": 2700
+          },
+          "baseline": {
+            "tp": 4242,
+            "fp": 376,
+            "fn": 6980,
+            "precision": 0.9185794716327415,
+            "recall": 0.37800748529673855,
+            "f1": 0.5356060606060605,
+            "mixed_identity_groups": 117,
+            "multiview_groups": 2700
+          },
+          "delta_pp": {
+            "precision": 0.4038259961333224,
+            "recall": -0.6148636606665481,
+            "f1": -0.5533021546041517
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": 0.20672473548811937,
+              "high_pp": 0.6407740068790128
+            },
+            "recall": {
+              "low_pp": -0.8350575156172564,
+              "high_pp": -0.42426084306270634
+            },
+            "f1": {
+              "low_pp": -0.7575517038402032,
+              "high_pp": -0.37743979461828087
+            }
+          },
+          "frames": 854
+        }
+      }
+    },
+    "exact": {
+      "all": {
+        "existing_single": {
+          "metrics": {
+            "tp": 10813,
+            "fp": 1272,
+            "fn": 14032,
+            "precision": 0.8947455523376086,
+            "recall": 0.4352183537935198,
+            "f1": 0.5855943677227187
+          },
+          "baseline": {
+            "tp": 10606,
+            "fp": 1120,
+            "fn": 14239,
+            "precision": 0.9044857581442948,
+            "recall": 0.42688669752465286,
+            "f1": 0.5800224221377593
+          },
+          "delta_pp": {
+            "precision": -0.974020580668622,
+            "recall": 0.8331656268866949,
+            "f1": 0.5571945584959326
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": -1.1933081020378922,
+              "high_pp": -0.7806609553080379
+            },
+            "recall": {
+              "low_pp": 0.6915328537380278,
+              "high_pp": 0.9892742181296459
+            },
+            "f1": {
+              "low_pp": 0.4156035611751102,
+              "high_pp": 0.703992033817529
+            }
+          },
+          "frames": 1655
+        },
+        "factored": {
+          "metrics": {
+            "tp": 10700,
+            "fp": 1278,
+            "fn": 14145,
+            "precision": 0.8933043913842044,
+            "recall": 0.43067015496075667,
+            "f1": 0.5811585150585231
+          },
+          "baseline": {
+            "tp": 10606,
+            "fp": 1120,
+            "fn": 14239,
+            "precision": 0.9044857581442948,
+            "recall": 0.42688669752465286,
+            "f1": 0.5800224221377593
+          },
+          "delta_pp": {
+            "precision": -1.1181366760090405,
+            "recall": 0.378345743610381,
+            "f1": 0.1136092920763776
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": -1.5151150063643786,
+              "high_pp": -0.789631161512491
+            },
+            "recall": {
+              "low_pp": 0.15494441045274907,
+              "high_pp": 0.621959868790448
+            },
+            "f1": {
+              "low_pp": -0.10471064417123338,
+              "high_pp": 0.3378537253885939
+            }
+          },
+          "frames": 1655
+        },
+        "spatial_factored": {
+          "metrics": {
+            "tp": 10678,
+            "fp": 1233,
+            "fn": 14167,
+            "precision": 0.8964822433045084,
+            "recall": 0.4297846649225196,
+            "f1": 0.5810207857220591
+          },
+          "baseline": {
+            "tp": 10606,
+            "fp": 1120,
+            "fn": 14239,
+            "precision": 0.9044857581442948,
+            "recall": 0.42688669752465286,
+            "f1": 0.5800224221377593
+          },
+          "delta_pp": {
+            "precision": -0.8003514839786341,
+            "recall": 0.2897967397866741,
+            "f1": 0.09983635842997218
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": -1.1089704798966717,
+              "high_pp": -0.5349335891178247
+            },
+            "recall": {
+              "low_pp": 0.12147815425047018,
+              "high_pp": 0.46614090714067924
+            },
+            "f1": {
+              "low_pp": -0.06862920214132401,
+              "high_pp": 0.26903016042079453
+            }
+          },
+          "frames": 1655
+        }
+      },
+      "guard_late": {
+        "existing_single": {
+          "metrics": {
+            "tp": 4326,
+            "fp": 441,
+            "fn": 6896,
+            "precision": 0.9074889867841409,
+            "recall": 0.3854927820352878,
+            "f1": 0.5411220213897054
+          },
+          "baseline": {
+            "tp": 4242,
+            "fp": 376,
+            "fn": 6980,
+            "precision": 0.9185794716327415,
+            "recall": 0.37800748529673855,
+            "f1": 0.5356060606060605
+          },
+          "delta_pp": {
+            "precision": -1.1090484848600535,
+            "recall": 0.7485296738549252,
+            "f1": 0.5515960783644913
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": -1.3923064421348252,
+              "high_pp": -0.8294056929316705
+            },
+            "recall": {
+              "low_pp": 0.6116466789734131,
+              "high_pp": 0.8838752789795931
+            },
+            "f1": {
+              "low_pp": 0.4116437361759251,
+              "high_pp": 0.683694419642987
+            }
+          },
+          "frames": 854
+        },
+        "factored": {
+          "metrics": {
+            "tp": 4312,
+            "fp": 450,
+            "fn": 6910,
+            "precision": 0.9055018899622007,
+            "recall": 0.38424523257886295,
+            "f1": 0.5395395395395395
+          },
+          "baseline": {
+            "tp": 4242,
+            "fp": 376,
+            "fn": 6980,
+            "precision": 0.9185794716327415,
+            "recall": 0.37800748529673855,
+            "f1": 0.5356060606060605
+          },
+          "delta_pp": {
+            "precision": -1.3077581670540739,
+            "recall": 0.6237747282124395,
+            "f1": 0.3933478933478951
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": -1.9071713702956588,
+              "high_pp": -0.7856263297658964
+            },
+            "recall": {
+              "low_pp": 0.31370608634217245,
+              "high_pp": 0.9815216877028691
+            },
+            "f1": {
+              "low_pp": 0.10830054199992917,
+              "high_pp": 0.7362321937382506
+            }
+          },
+          "frames": 854
+        },
+        "spatial_factored": {
+          "metrics": {
+            "tp": 4303,
+            "fp": 429,
+            "fn": 6919,
+            "precision": 0.9093406593406593,
+            "recall": 0.38344323649973266,
+            "f1": 0.5394258493167857
+          },
+          "baseline": {
+            "tp": 4242,
+            "fp": 376,
+            "fn": 6980,
+            "precision": 0.9185794716327415,
+            "recall": 0.37800748529673855,
+            "f1": 0.5356060606060605
+          },
+          "delta_pp": {
+            "precision": -0.9238812292082121,
+            "recall": 0.543575120299411,
+            "f1": 0.38197887107251915
+          },
+          "paired_25frame_block_bootstrap_95": {
+            "precision": {
+              "low_pp": -1.3735320977095633,
+              "high_pp": -0.5194983391102665
+            },
+            "recall": {
+              "low_pp": 0.3375204091226139,
+              "high_pp": 0.7391887721511008
+            },
+            "f1": {
+              "low_pp": 0.1661381564949889,
+              "high_pp": 0.5840987074186872
+            }
+          },
+          "frames": 854
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "scripts\\report_spatial_recovery_intervals.py": "60a0dda404cd5e93dfb5ff4bd8b1dfd87aa9c4fe5e456cbe5bc351c8a522d723",
+    "scripts\\report_low_conf_no_band.py": "cc689e334b1e6b455a17ce36911d8637cfd4d0491335b0472d5e22667a851fe6",
+    "ultralytics\\algorithm\\evaluation_reports\\spatial_conditional_full_results_20261012.json": "ac0d57b49ab0209d6fa878701245d9821b6088ce750584c4be241dce47df1a08",
+    "ultralytics\\algorithm\\evaluation_reports\\spatial_recovery_exact_full_replay_20261012.json": "ecee0828b1ec2f32fce1015d8f96ce4b292a2d739cf985808f9bbc1f72ba4778"
+  },
+  "limitations": "Previously explored scene, full includes fitting. Block bootstrap does not certify blind-scene generalization. No full-domain threshold tuning."
+}

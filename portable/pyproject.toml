@@ -1,0 +1,9 @@
+[project]
+name = "multiview-dissertation-submission"
+version = "0.1.0"
+description = "Frozen protected-recovery code, source snapshots and prepared-feature examples"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==1.26.4", "scipy==1.17.1"]
+
+[tool.uv]
+package = false

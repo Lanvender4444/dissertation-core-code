@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "frames": 6,
+  "panels": 6,
+  "checks": [
+    {
+      "category": "recovery",
+      "frame": "00000641",
+      "camera": 1,
+      "gt_id": "21",
+      "independent_iou": 0.8601265742893989
+    },
+    {
+      "category": "side",
+      "frame": "00000688",
+      "camera": 5,
+      "gt_id": "24",
+      "independent_iou": 0.8113053686917325
+    },
+    {
+      "category": "partial",
+      "frame": "00000650",
+      "camera": 4,
+      "gt_id": "28",
+      "independent_iou": 0.8046994523985775
+    },
+    {
+      "category": "partial",
+      "frame": "00000650",
+      "camera": 2,
+      "gt_id": "28",
+      "independent_iou": null
+    },
+    {
+      "category": "duplicate",
+      "frame": "00000687",
+      "camera": 4,
+      "gt_id": "19",
+      "independent_iou": 0.529524238999935
+    },
+    {
+      "category": "localisation",
+      "frame": "00000640",
+      "camera": 2,
+      "gt_id": "22",
+      "independent_iou": 0.38008153047917276
+    }
+  ],
+  "manifest_sha256": "4aeddfcbc8326f778d074e0cac1773118d9dd9faa334a555b06412e49fea6a8c",
+  "illustration_sha256": "b9b8927ec52c3a4830b1d944eb06de14e64ba31df430370a03f8c5c10a9c8f47",
+  "audit_script_sha256": "936f55afd901b82b013ca88045eba5c030f9eeb6cd59fa1ad14ec56887928e45",
+  "scope": "Raw XML box/native pixel hashes, active bbox/source identity, six signed frame counts and case predicates; no physical identity, occlusion explanation, population error frequency or generalisation certificate"
+}

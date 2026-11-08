@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "domain": "full",
+  "frames": 1655,
+  "selected": {
+    "factored": "factored/tau0.55",
+    "spatial_factored": "spatial_factored/tau0.55"
+  },
+  "independent_counts": {
+    "factored/tau0.55": [
+      10457,
+      1069,
+      14388
+    ],
+    "spatial_factored/tau0.55": [
+      10452,
+      1067,
+      14393
+    ]
+  },
+  "maximum_prediction_error": 0.0,
+  "early_target_frames": 601,
+  "early_target_candidates": 35103,
+  "report_sha256": "ac0d57b49ab0209d6fa878701245d9821b6088ce750584c4be241dce47df1a08",
+  "source_sha256": "4bb24d8eb4b3393c897a90735de6edcd9c3a6884b59b852174aeb803632082b0",
+  "limitations": "Same explored scene. Scoring references nested OOF; bbox and pair NOT OOF. Spatial anchors omit the queried camera but box-centre triangulation is approximate. No new YOLO, GT-free prediction, no speed or physical-ID certificate."
+}

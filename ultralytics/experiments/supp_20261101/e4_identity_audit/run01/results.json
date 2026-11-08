@@ -1,0 +1,82 @@
+{
+ "S1_pure": {
+  "n": 40,
+  "same": 39,
+  "different": 0,
+  "uncertain": 1,
+  "precision": 1.0,
+  "wilson95": [
+   0.9103301463997611,
+   1.0
+  ],
+  "precision_uncertain_as_wrong": 0.975,
+  "wilson95_conservative": [
+   0.8711834051199223,
+   0.9955732825922052
+  ]
+ },
+ "S2_impure": {
+  "n": 33,
+  "same": 25,
+  "different": 1,
+  "uncertain": 7,
+  "precision": 0.9615384615384616,
+  "wilson95": [
+   0.811068230080416,
+   0.9931781910230102
+  ],
+  "precision_uncertain_as_wrong": 0.7575757575757576,
+  "wilson95_conservative": [
+   0.5897505131450971,
+   0.8716843865335271
+  ]
+ },
+ "S3_random": {
+  "n": 50,
+  "same": 47,
+  "different": 0,
+  "uncertain": 3,
+  "precision": 1.0,
+  "wilson95": [
+   0.9244398288016114,
+   1.0
+  ],
+  "precision_uncertain_as_wrong": 0.94,
+  "wilson95_conservative": [
+   0.8378265662912299,
+   0.9793854036353695
+  ]
+ },
+ "all": {
+  "n": 123,
+  "same": 111,
+  "different": 1,
+  "uncertain": 11,
+  "precision": 0.9910714285714286,
+  "wilson95": [
+   0.9511503338049636,
+   0.9984221859116149
+  ],
+  "precision_uncertain_as_wrong": 0.9024390243902439,
+  "wilson95_conservative": [
+   0.837193216307583,
+   0.9433078180533838
+  ]
+ },
+ "annotation_vs_visual": {
+  "same": {
+   "same": 83,
+   "uncertain": 2
+  },
+  "different": {
+   "same": 25,
+   "uncertain": 7,
+   "different": 1
+  },
+  "unlabelled": {
+   "same": 3,
+   "uncertain": 2
+  }
+ },
+ "note": "Visual labels were assigned by the AI assistant from blind crop sheets (no IDs or strata shown); they are not a human audit and must be confirmed by the candidate (column candidate_label)."
+}

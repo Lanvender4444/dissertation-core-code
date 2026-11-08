@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "frames": 1655,
+  "report_sha256": "0f58dd68b3dafc570aa882404f3f89ba9b04c7e89ae452854a81a177445f7e15",
+  "fresh_native_features": true,
+  "gt_free_repaired_roots_and_paths": true,
+  "native_XML_counts": true,
+  "audit_source_sha256": "bc819f24430e32348576e77cd1c9038b7791165406ccc9d185b3a9a6005d8f8b"
+}

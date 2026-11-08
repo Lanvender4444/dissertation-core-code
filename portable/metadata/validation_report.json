@@ -1,0 +1,87 @@
+{
+  "complete": true,
+  "unit_test_output": "test_candidate_positive_gains_are_not_additive (test_submission.RecoveryContracts.test_candidate_positive_gains_are_not_additive) ... ok\ntest_duplicate_uid_is_rejected (test_submission.RecoveryContracts.test_duplicate_uid_is_rejected) ... ok\ntest_empty_group_is_rejected (test_submission.RecoveryContracts.test_empty_group_is_rejected) ... ok\ntest_exported_predictor_checks_dimension (test_submission.RecoveryContracts.test_exported_predictor_checks_dimension) ... ok\ntest_independent_policy_retains_competitors (test_submission.RecoveryContracts.test_independent_policy_retains_competitors) ... ok\ntest_invalid_scores_are_rejected (test_submission.RecoveryContracts.test_invalid_scores_are_rejected) ... ok\ntest_protected_uid_cannot_be_reused (test_submission.RecoveryContracts.test_protected_uid_cannot_be_reused) ... ok\ntest_reference_is_unchanged (test_submission.RecoveryContracts.test_reference_is_unchanged) ... ok\ntest_same_camera_members_are_rejected (test_submission.RecoveryContracts.test_same_camera_members_are_rejected) ... ok\ntest_score_threshold_is_inclusive (test_submission.RecoveryContracts.test_score_threshold_is_inclusive) ... ok\ntest_small_only_ignore_rule (test_submission.RecoveryContracts.test_small_only_ignore_rule) ... ok\ntest_three_frozen_examples (test_submission.RecoveryContracts.test_three_frozen_examples) ... ok\ntest_unknown_location_can_be_accepted (test_submission.RecoveryContracts.test_unknown_location_can_be_accepted) ... ok\ntest_unknown_uid_is_rejected (test_submission.RecoveryContracts.test_unknown_uid_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.101s\n\nOK\n",
+  "standalone_example_rows": [
+    {
+      "frame": "00000641",
+      "counts": [
+        17,
+        5,
+        30,
+        1,
+        17
+      ],
+      "reference_counts": [
+        16,
+        5,
+        31,
+        1,
+        17
+      ],
+      "objects": 22,
+      "added": 1,
+      "precision": 0.7727272727272727,
+      "recall": 0.3617021276595745,
+      "f1": 0.4927536231884059,
+      "score_max_abs_error": 0.0,
+      "interpretation": "These are bundled-frame checks, not the full-sequence thesis result."
+    },
+    {
+      "frame": "00000650",
+      "counts": [
+        20,
+        4,
+        25,
+        1,
+        17
+      ],
+      "reference_counts": [
+        20,
+        4,
+        25,
+        1,
+        17
+      ],
+      "objects": 24,
+      "added": 0,
+      "precision": 0.8333333333333334,
+      "recall": 0.4444444444444444,
+      "f1": 0.5797101449275363,
+      "score_max_abs_error": 0.0,
+      "interpretation": "These are bundled-frame checks, not the full-sequence thesis result."
+    },
+    {
+      "frame": "00001200",
+      "counts": [
+        4,
+        0,
+        2,
+        0,
+        2
+      ],
+      "reference_counts": [
+        4,
+        0,
+        2,
+        0,
+        2
+      ],
+      "objects": 4,
+      "added": 0,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "score_max_abs_error": 0.0,
+      "interpretation": "These are bundled-frame checks, not the full-sequence thesis result."
+    }
+  ],
+  "source_verification": {
+    "complete": true,
+    "checked_source_files": 104,
+    "package_manifest_checked": false,
+    "source_project_compared": "D:\\Yolo-Dissertation"
+  },
+  "detector_calls": 0,
+  "model_fits": 0,
+  "scope": "Software/prepared-feature replay checks, not an independent accuracy experiment."
+}

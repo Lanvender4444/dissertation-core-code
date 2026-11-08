@@ -1,0 +1,11 @@
+{
+ "purpose": "blind visual identity audit of F5-R multi-view groups (guard+late)",
+ "strata": {
+  "S1_pure": "40 of 2194 annotation-pure groups",
+  "S2_impure": "all 33 annotation-impure groups",
+  "S3_random": "50 of 2656 multi-view groups"
+ },
+ "seed": 20261101,
+ "rendering": "member crops padded 30%, no IDs/strata on sheets",
+ "labels": "same / different / uncertain"
+}

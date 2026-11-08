@@ -1,0 +1,37 @@
+{
+  "frames": [
+    "00000000",
+    "00000017",
+    "00000650",
+    "00001200",
+    "00001400",
+    "00001600"
+  ],
+  "sizes": [
+    [
+      800,
+      600
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "repeats": 10,
+  "scope": "CPU cached perception replay, native image I/O, display only; no fresh detector or full pipeline benchmark",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD",
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "threads": 1,
+  "source_sha256": {
+    "scripts/audit_surround_v09.py": "ec600fb37c431942ec2276f763ef602a4be0db27a90a6bebf1d8d100e1ca2e96",
+    "ultralytics/research/immersive_surround.py": "5d9c1dd32656314c225544e46e73589ba72676c8f9fa80f5d8c5c833db9171b7",
+    "ultralytics/research/immersive_dashboard.py": "ad249076b199957a9c728245ca6b54faa81a4ba733416bce2b20be777021c97e",
+    "ultralytics/decided/final_immersive_cam.py": "ad9d212d9127a52f1b04f366cf6b522ed55ead25200d1d09a5b22f4ec9d35f3e"
+  }
+}

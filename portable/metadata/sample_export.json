@@ -1,0 +1,73 @@
+{
+  "complete": true,
+  "frames": [
+    {
+      "frame": "00000641",
+      "counts": [
+        17,
+        5,
+        30,
+        1,
+        17
+      ],
+      "reference_counts": [
+        16,
+        5,
+        31,
+        1,
+        17
+      ],
+      "candidates": 110,
+      "features": 1087,
+      "maximum_score_error": 0.0
+    },
+    {
+      "frame": "00000650",
+      "counts": [
+        20,
+        4,
+        25,
+        1,
+        17
+      ],
+      "reference_counts": [
+        20,
+        4,
+        25,
+        1,
+        17
+      ],
+      "candidates": 105,
+      "features": 1087,
+      "maximum_score_error": 0.0
+    },
+    {
+      "frame": "00001200",
+      "counts": [
+        4,
+        0,
+        2,
+        0,
+        2
+      ],
+      "reference_counts": [
+        4,
+        0,
+        2,
+        0,
+        2
+      ],
+      "candidates": 9,
+      "features": 1087,
+      "maximum_score_error": 0.0
+    }
+  ],
+  "model_source": "ultralytics\\experiments\\protected_conditional_20261010\\run01\\recovery01\\models.json",
+  "original_models_sha256": "95da30dbbaa3cded59d955140c6c8cd4ade3f1689125078e31df1f87be14d74e",
+  "original_protocol_sha256": "9928e7a688ad63ad041d8998391012ddaf82be93cff3eeca795643d88dfa2f42",
+  "exported_single_sha256": "8b34bfbf999c5cf16381a50f149841feb40cac6b4b8ae5bf6112da9713971e6d",
+  "builder_sha256": "2bc99727b1ee4c3f9daa9642887ae6d152af2f06430eadba3a2a6feb8fd4b61f",
+  "no_new_detector_calls": true,
+  "no_model_fit": true,
+  "scope": "Three existing frames verify portable recovery only; not a new experiment or full-domain re-evaluation. Review dataset/provider and source licence rights before release."
+}

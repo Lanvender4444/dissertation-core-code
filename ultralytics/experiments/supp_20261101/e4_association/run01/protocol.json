@@ -1,0 +1,18 @@
+{
+ "purpose": "Topic 3 Q2: is the same object identified across views? pairwise association precision/recall",
+ "identity_proxy": "supplied XML instanceId (cross-camera semantics unconfirmed by provider)",
+ "member_labelling": "per-camera one-to-one Hungarian over all output members vs own-camera GT, compatible class, IoU>=0.5, all heights",
+ "pair_definitions": {
+  "tp": "same group, different cameras, same ID",
+  "fp": "same group, different cameras, both labelled, different ID",
+  "unknown": "same group, at least one member unlabelled",
+  "fn": "different groups, different cameras, same ID"
+ },
+ "configs": [
+  "A",
+  "F5P",
+  "F5R",
+  "B2 best-F1 (theta5,tau.2)",
+  "B3p dev-P90 (theta5,tau.4,tau_s.9)"
+ ]
+}

@@ -1,0 +1,217 @@
+{
+  "complete": true,
+  "date": "2026-10-16",
+  "frames": 1655,
+  "xml_sources_checked": 8275,
+  "totals": {
+    "output_objects": 11827,
+    "multiview_groups": 7316,
+    "recovered_singletons": 324,
+    "multiview_common_unique": 5402,
+    "old_flag_common_unique": 195,
+    "old_union_flag": 561,
+    "multiview_partially_unsupported": 1299,
+    "old_flag_partially_unsupported": 111,
+    "tp": 10606,
+    "fp": 1120,
+    "fn": 14239,
+    "ignored": 101,
+    "common_support_capacity": 9547,
+    "any_minus_common_capacity": 1059,
+    "frames": 1655,
+    "eligible_gt": 24845,
+    "multiview_all_unsupported": 360,
+    "old_flag_all_unsupported": 0,
+    "multiview_common_multiple": 107,
+    "old_flag_common_multiple": 107,
+    "multiview_supported_disjoint": 148,
+    "old_flag_supported_disjoint": 148
+  },
+  "splits": {
+    "train": {
+      "output_objects": 5166,
+      "multiview_groups": 3590,
+      "recovered_singletons": 141,
+      "multiview_common_unique": 2488,
+      "old_flag_common_unique": 133,
+      "old_union_flag": 365,
+      "multiview_partially_unsupported": 829,
+      "old_flag_partially_unsupported": 81,
+      "tp": 4549,
+      "fp": 554,
+      "fn": 5242,
+      "ignored": 63,
+      "common_support_capacity": 3922,
+      "any_minus_common_capacity": 627,
+      "frames": 601,
+      "eligible_gt": 9791,
+      "multiview_all_unsupported": 122,
+      "old_flag_all_unsupported": 0,
+      "multiview_common_multiple": 54,
+      "old_flag_common_multiple": 54,
+      "multiview_supported_disjoint": 97,
+      "old_flag_supported_disjoint": 97
+    },
+    "development": {
+      "output_objects": 2013,
+      "multiview_groups": 1026,
+      "recovered_singletons": 49,
+      "multiview_common_unique": 732,
+      "old_flag_common_unique": 19,
+      "old_union_flag": 79,
+      "tp": 1815,
+      "fp": 190,
+      "fn": 2017,
+      "ignored": 8,
+      "common_support_capacity": 1678,
+      "any_minus_common_capacity": 137,
+      "frames": 200,
+      "eligible_gt": 3832,
+      "multiview_all_unsupported": 90,
+      "old_flag_all_unsupported": 0,
+      "multiview_partially_unsupported": 157,
+      "old_flag_partially_unsupported": 13,
+      "multiview_supported_disjoint": 25,
+      "old_flag_supported_disjoint": 25,
+      "multiview_common_multiple": 22,
+      "old_flag_common_multiple": 22
+    },
+    "guard": {
+      "output_objects": 2026,
+      "multiview_groups": 1133,
+      "recovered_singletons": 42,
+      "multiview_common_unique": 918,
+      "old_flag_common_unique": 24,
+      "old_union_flag": 60,
+      "tp": 1854,
+      "fp": 163,
+      "fn": 3144,
+      "ignored": 9,
+      "common_support_capacity": 1726,
+      "any_minus_common_capacity": 128,
+      "frames": 299,
+      "eligible_gt": 4998,
+      "multiview_partially_unsupported": 126,
+      "old_flag_partially_unsupported": 11,
+      "multiview_supported_disjoint": 14,
+      "old_flag_supported_disjoint": 14,
+      "multiview_all_unsupported": 64,
+      "old_flag_all_unsupported": 0,
+      "multiview_common_multiple": 11,
+      "old_flag_common_multiple": 11
+    },
+    "late": {
+      "output_objects": 2622,
+      "multiview_groups": 1567,
+      "recovered_singletons": 92,
+      "multiview_common_unique": 1264,
+      "old_flag_common_unique": 19,
+      "old_union_flag": 57,
+      "tp": 2388,
+      "fp": 213,
+      "fn": 3836,
+      "ignored": 21,
+      "common_support_capacity": 2221,
+      "any_minus_common_capacity": 167,
+      "frames": 555,
+      "eligible_gt": 6224,
+      "multiview_all_unsupported": 84,
+      "old_flag_all_unsupported": 0,
+      "multiview_partially_unsupported": 187,
+      "old_flag_partially_unsupported": 6,
+      "multiview_supported_disjoint": 12,
+      "old_flag_supported_disjoint": 12,
+      "multiview_common_multiple": 20,
+      "old_flag_common_multiple": 20
+    }
+  },
+  "label_conflicts": [
+    {
+      "frame": "00000810",
+      "gt_id": 5,
+      "labels_by_view": {
+        "2": "rider",
+        "3": "car",
+        "4": "car",
+        "5": "rider"
+      },
+      "compatible_yolo_class_sets_equal": false
+    },
+    {
+      "frame": "00000810",
+      "gt_id": 7,
+      "labels_by_view": {
+        "2": "car",
+        "3": "bus",
+        "4": "bus",
+        "5": "car"
+      },
+      "compatible_yolo_class_sets_equal": true
+    },
+    {
+      "frame": "00000810",
+      "gt_id": 15,
+      "labels_by_view": {
+        "2": "car",
+        "3": "person",
+        "4": "person",
+        "5": "car"
+      },
+      "compatible_yolo_class_sets_equal": false
+    },
+    {
+      "frame": "00000810",
+      "gt_id": 16,
+      "labels_by_view": {
+        "2": "car",
+        "3": "person",
+        "4": "person"
+      },
+      "compatible_yolo_class_sets_equal": false
+    },
+    {
+      "frame": "00001050",
+      "gt_id": 44,
+      "labels_by_view": {
+        "2": "bicycle",
+        "3": "bicycle",
+        "4": "person"
+      },
+      "compatible_yolo_class_sets_equal": false
+    },
+    {
+      "frame": "00001620",
+      "gt_id": 12,
+      "labels_by_view": {
+        "1": "car",
+        "2": "person",
+        "3": "person",
+        "4": "person",
+        "5": "person"
+      },
+      "compatible_yolo_class_sets_equal": false
+    },
+    {
+      "frame": "00001620",
+      "gt_id": 13,
+      "labels_by_view": {
+        "1": "car",
+        "2": "person",
+        "3": "person",
+        "4": "person",
+        "5": "person"
+      },
+      "compatible_yolo_class_sets_equal": false
+    }
+  ],
+  "original_matching_counts_reproduced": true,
+  "member_sets_reparsed_from_xml": true,
+  "joint_capacity_reproduced_with_different_matching_implementation": true,
+  "diagnostic_sha256": "db5b2d2dbfe1cbe46a4729655f7cb1d1a166df98cb97407168daa01b5dcb9815",
+  "source_sha256": "153672fb33137c01881878aa6011b35d3b155aad39503ed90de4864612f0b8fe",
+  "input_sha256": {
+    "thesis/group_support_audit_20261016_v1.json": "db5b2d2dbfe1cbe46a4729655f7cb1d1a166df98cb97407168daa01b5dcb9815",
+    "scripts/audit_thesis_group_support.py": "98593a4cd44a0e3935f7157dfc5ba489805451debb619b417c295ac96b92c5b1"
+  },
+  "scope": "Set-based annotation support, not physical-ID accuracy. Independent XML/IoU/Hungarian reconstruction verifies the first diagnostic. The original any-member P/R remains unchanged. First-view class convention retained, with cross-view label conflicts listed explicitly. No detector call, training, output edit, new scene or manual identity adjudication."
+}

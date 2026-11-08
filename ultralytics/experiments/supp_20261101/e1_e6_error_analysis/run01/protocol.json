@@ -1,0 +1,12 @@
+{
+ "purpose": "Plan objective 1: per-camera behaviour, fisheye radial effect, crop coverage ceiling, cross-view inconsistency; E6: recall by size/class/visible-camera set for Raw/A/F5-P/F5-R",
+ "detector_input": "frozen five-camera crop-mosaic pool, YOLO11n, conf>=0.05; native (uncorrected) boxes for per-camera analysis",
+ "thresholds": [
+  0.05,
+  0.25
+ ],
+ "matching": "per-camera one-to-one, compatible class, IoU>=0.5, GT height>=25 px",
+ "size_proxy": "GT box height in native pixels (no metric distance ground truth)",
+ "radial": "|centre - principal point| / |corner(0,0) - principal point|",
+ "segments": "full and guard+late"
+}

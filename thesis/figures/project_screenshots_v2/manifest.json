@@ -1,0 +1,149 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "frame": "00000650",
+      "counts": [
+        20,
+        4,
+        25,
+        1,
+        17
+      ],
+      "metrics": {
+        "tp": 20,
+        "fp": 4,
+        "fn": 25,
+        "precision": 0.8333333333333334,
+        "recall": 0.4444444444444444,
+        "f1": 0.5797101449275363,
+        "mixed_identity_groups": 1,
+        "multiview_groups": 17
+      },
+      "objects": 24,
+      "prediction_fingerprint": "890f60e9aac3fecf47c2df85fd465e97fdfacbbedac93b506be7c6bab3d35a83",
+      "location_fingerprint": "9c82766b8d832993b8125351827b495666bbfc938ab6e74ac16ee3231170957b",
+      "image_sha256": {
+        "ultralytics\\mycar\\images\\1\\00000650.png": "007c5f0a0e4234f5b8023f52cfe6c5ba6084ad38d3c80f79c019c46116249e0f",
+        "ultralytics\\mycar\\images\\2\\00000650.png": "40cd1560344f673504a44ecd96b7de2102ab92bc6a7567d8fba15021f1b400b2",
+        "ultralytics\\mycar\\images\\3\\00000650.png": "91d18214173f8499fa7e1ffad459b61633e896e809b4ca1d7cd4fc3a0f135ae3",
+        "ultralytics\\mycar\\images\\4\\00000650.png": "7f353857cebe7d960c5783482874147fd37768ade44e246f65e4583fc532df94",
+        "ultralytics\\mycar\\images\\5\\00000650.png": "551d92928a0c8de10272c85d3858a20a1872a5811cf2996961d490bad653d5b0"
+      },
+      "files": [
+        {
+          "path": "thesis\\figures\\project_screenshots_v2\\00000650_cameras_spatial.png",
+          "sha256": "8772dd9ef04dbe23b69fa66236b3897464d03b6b81435d54ab2a4bab94bbbab8",
+          "page": "cameras",
+          "view": "spatial",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        {
+          "path": "thesis\\figures\\project_screenshots_v2\\00000650_objects_spatial.png",
+          "sha256": "50383eba98e13d93f45a54a072f4ac17c2e85079e9fd9c840c91a3df29f3f543",
+          "page": "objects",
+          "view": "spatial",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        {
+          "path": "thesis\\figures\\project_screenshots_v2\\00000650_overview_panorama.png",
+          "sha256": "cbdfc1208ff368213cf3f51a66b865ab046cf0acb4753930164927db7bc8f1b7",
+          "page": "overview",
+          "view": "panorama",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      ],
+      "perception_unchanged": true
+    },
+    {
+      "frame": "00001200",
+      "counts": [
+        4,
+        0,
+        2,
+        0,
+        2
+      ],
+      "metrics": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "mixed_identity_groups": 0,
+        "multiview_groups": 2
+      },
+      "objects": 4,
+      "prediction_fingerprint": "db980e80fba604d4b98ec52f7025d29c0fdd2c0b6169a45ec6b4cfdf2f655eff",
+      "location_fingerprint": "82de6b56f44b250a8d24b4be9e6cb7794f54f446364ce2608e2ecb971971507a",
+      "image_sha256": {
+        "ultralytics\\mycar\\images\\1\\00001200.png": "7e05946489a01362cf9675da4bd2d7aeee76a81074b9a60334fe6cdface0d85c",
+        "ultralytics\\mycar\\images\\2\\00001200.png": "e419fed9cb299808c1f17d7b999be680946b93cb57ade4ac3ca3361998ca5a70",
+        "ultralytics\\mycar\\images\\3\\00001200.png": "c6c77c919db301d9e35bf32a0dd46a2b30b9abd52914b4b855f1e0a521bdab23",
+        "ultralytics\\mycar\\images\\4\\00001200.png": "95f56732601b109c7222d883bd4f6d0ff60d26bbfcbfd7668a2885c028bff9f2",
+        "ultralytics\\mycar\\images\\5\\00001200.png": "cc1c68baf9ee61ae17117806abf522d7677f6381cd81780717cb319f39c3521c"
+      },
+      "files": [
+        {
+          "path": "thesis\\figures\\project_screenshots_v2\\00001200_overview_spatial.png",
+          "sha256": "e065f1c3ddbe385a6096c56397028c42d8308a01460cfb26a25ada5bd3566e53",
+          "page": "overview",
+          "view": "spatial",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        {
+          "path": "thesis\\figures\\project_screenshots_v2\\00001200_bev_detail.png",
+          "sha256": "58d96b0107bca10c9e59c0b8beb11d1958c89bd8cbdde6696ce937c9737e0221",
+          "page": "bev_detail",
+          "size": [
+            540,
+            540
+          ]
+        }
+      ],
+      "perception_unchanged": true
+    }
+  ],
+  "plane": {
+    "kind": "fixed_cached_stereo_plane",
+    "reference": "00000000",
+    "beta": [
+      0.023974017669996135,
+      0.06051578464545167,
+      -0.48829672742441005
+    ],
+    "record": "ultralytics\\experiments\\road_support_20261010\\full01\\shard0\\frames\\00000000.json",
+    "record_sha256": "8f89bdd87d11180905b0c8933d43a39cd101fea5b490f1e6ca37af9011899386",
+    "protocol_sha256": "8b89063e7f21934fecaf67d85790b21bec1ee3064f33a559853e4d41fe56f0b3",
+    "mad": 0.0492597363003488,
+    "span_x": 22.229021175568022,
+    "span_y": 11.006780098069719,
+    "limitation": "Local fit frozen for display; not a current-frame or globally measured road surface"
+  },
+  "configuration": "single/independent/tau0.55",
+  "source_sha256": {
+    "scripts\\render_thesis_screenshots.py": "e2d6b947d0d23360d6de8cb9ce6693a6d1b685a5511e152ef0361784402cf9d9",
+    "ultralytics\\decided\\final_five_cam.py": "f5523b201b4d67edbb04b617d308bf54ca2ae038d202644d67e6c3abb85d70e6",
+    "ultralytics\\research\\spatial_dashboard.py": "26e901d2cea74c671b73c64be358b617ff7bf0709e7417442be7cb2320602f8c",
+    "ultralytics\\research\\spatial_surround.py": "4e7c2df91cc782bd5c9a7bc2f1cff92778496dade394d8c67d8db80fabb5036e",
+    "ultralytics\\research\\spatial_observation_overlay.py": "c390f046b72cf249c990622ec0937e89dda6a6a093e885deb646322be8abfba2",
+    "ultralytics\\research\\natural_panorama.py": "fc7461a44708b48135cf916efc1c858905279b2a93ee42ec8d37dd5d4ff97601"
+  },
+  "numerical_source_sha256": "578128bfb6bd3afdbd6cd78f385883071d7339bdc2b83719c5ba1382d734d583",
+  "new_detector_calls": 0,
+  "model_fits": 0,
+  "scope": "Headless screenshots of actual project render buffers; not OS-window captures. Metrics displayed concern one visited frame, not full-sequence performance. Selected illustrations, not a random sample, physical-ID benchmark or 3D ground truth."
+}

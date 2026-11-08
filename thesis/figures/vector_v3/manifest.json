@@ -1,0 +1,266 @@
+{
+  "complete": true,
+  "figures": [
+    {
+      "name": "camera_roles",
+      "kind": "schematic",
+      "svg": "thesis\\figures\\vector_v3\\camera_roles.svg",
+      "pdf": "thesis\\figures\\vector_v3\\camera_roles.pdf",
+      "svg_sha256": "7058231960ade9852560613ec7ea6b30591f01fbaaff1b2f59776d2a4ec5b0b9",
+      "pdf_sha256": "363aa95e0a5485ea9ab43b50861858450f14c34db1c52134c16adf1321482be2",
+      "values": {},
+      "sources": {
+        "thesis\\archive\\review_v4\\dissertation_en.md": "7b1d94ede021075f757af0711a11235e8800353d1c3615d2c5b57488239d240b"
+      },
+      "native_size": [
+        1100,
+        590
+      ]
+    },
+    {
+      "name": "rays_and_uncertainty",
+      "kind": "schematic",
+      "svg": "thesis\\figures\\vector_v3\\rays_and_uncertainty.svg",
+      "pdf": "thesis\\figures\\vector_v3\\rays_and_uncertainty.pdf",
+      "svg_sha256": "4d2c2d084e5edaa22c3e443bb2837856ae37c0cd0c2df9c35ec3971a453b2087",
+      "pdf_sha256": "076225b23b5478e192ab7ea30ddf50f1f75abaf91879dd607df4695198c77a48",
+      "values": {},
+      "sources": {
+        "thesis\\archive\\review_v4\\dissertation_en.md": "7b1d94ede021075f757af0711a11235e8800353d1c3615d2c5b57488239d240b"
+      },
+      "native_size": [
+        1100,
+        590
+      ]
+    },
+    {
+      "name": "detector_input_policies",
+      "kind": "schematic",
+      "svg": "thesis\\figures\\vector_v3\\detector_input_policies.svg",
+      "pdf": "thesis\\figures\\vector_v3\\detector_input_policies.pdf",
+      "svg_sha256": "1f68079cd4057bd1c3b891058ad8d28603f1dd80e4651da88da70299f049c88b",
+      "pdf_sha256": "7d23ac604b209a25f55414eedc46999c75f71e69ded19fb4c8200148fa843f93",
+      "values": {},
+      "sources": {
+        "thesis\\archive\\review_v4\\dissertation_en.md": "7b1d94ede021075f757af0711a11235e8800353d1c3615d2c5b57488239d240b"
+      },
+      "native_size": [
+        1100,
+        670
+      ]
+    },
+    {
+      "name": "e1_decision",
+      "kind": "schematic",
+      "svg": "thesis\\figures\\vector_v3\\e1_decision.svg",
+      "pdf": "thesis\\figures\\vector_v3\\e1_decision.pdf",
+      "svg_sha256": "342e67ad1119d09bcefb34bb0ad887e9757c5bff98cb2b93bab18e788dc95b1f",
+      "pdf_sha256": "ec554b3e96a307685b8f5cee181be554c6eb4c3a93020dfa2a08e7650978dc73",
+      "values": {},
+      "sources": {
+        "thesis\\archive\\review_v4\\dissertation_en.md": "7b1d94ede021075f757af0711a11235e8800353d1c3615d2c5b57488239d240b"
+      },
+      "native_size": [
+        1100,
+        760
+      ]
+    },
+    {
+      "name": "protected_recovery_graph",
+      "kind": "schematic",
+      "svg": "thesis\\figures\\vector_v3\\protected_recovery_graph.svg",
+      "pdf": "thesis\\figures\\vector_v3\\protected_recovery_graph.pdf",
+      "svg_sha256": "e9e12eb7ddd297bb764ff6b834241242f98ea5422edd97c0532898d6318229c4",
+      "pdf_sha256": "d375f2e9e0c4f2befd9d7dbb659555e9ad1e8eb0b407da50db815350b7a2c8c8",
+      "values": {},
+      "sources": {
+        "thesis\\archive\\review_v4\\dissertation_en.md": "7b1d94ede021075f757af0711a11235e8800353d1c3615d2c5b57488239d240b"
+      },
+      "native_size": [
+        1100,
+        670
+      ]
+    },
+    {
+      "name": "evaluation_protocol",
+      "kind": "data_chart",
+      "svg": "thesis\\figures\\vector_v3\\evaluation_protocol.svg",
+      "pdf": "thesis\\figures\\vector_v3\\evaluation_protocol.pdf",
+      "svg_sha256": "fc2b320a7cf1e09b2dcaac6dd34d4bc96315aa32aff78b300ba217977d1c5805",
+      "pdf_sha256": "2027e603533a02e2224af4b4b8760024fdb53c473716a0ce8b5431e1b0142bfe",
+      "values": {
+        "train": {
+          "frames": 601,
+          "first": "00000000",
+          "last": "00000600"
+        },
+        "development": {
+          "frames": 200,
+          "first": "00000601",
+          "last": "00000800"
+        },
+        "guard": {
+          "frames": 299,
+          "first": "00000801",
+          "last": "00001099"
+        },
+        "late": {
+          "frames": 555,
+          "first": "00001100",
+          "last": "00001700"
+        }
+      },
+      "sources": {
+        "thesis\\evidence_snapshot_v6.json": "38b4431645169120717ef3c5258ab97f61e27c9ef24e1e96a20e01ed0e7fcccc"
+      },
+      "native_size": [
+        1100,
+        540
+      ]
+    },
+    {
+      "name": "precision_recall_domains",
+      "kind": "data_chart",
+      "svg": "thesis\\figures\\vector_v3\\precision_recall_domains.svg",
+      "pdf": "thesis\\figures\\vector_v3\\precision_recall_domains.pdf",
+      "svg_sha256": "89265e6dbc7378a9b0a82f06fb68e54366d1abe33847b1d9f89daf37d6046e4c",
+      "pdf_sha256": "488b7218ed811c2d690910338b2de226efc1fa7f24dae97c8c058409a673c081",
+      "values": {
+        "960/cam2": {
+          "precision": 0.7379679144385026,
+          "recall": 0.3584947673124026
+        },
+        "960/cam3": {
+          "precision": 0.8192969608202124,
+          "recall": 0.33214577302753656
+        },
+        "960/cam4": {
+          "precision": 0.8605428796223447,
+          "recall": 0.3247235211163067
+        },
+        "strict_no_band": {
+          "precision": 0.9325187969924812,
+          "recall": 0.3682179173161137
+        },
+        "old": {
+          "precision": 0.9323689648694345,
+          "recall": 0.19975850271684445
+        },
+        "A": {
+          "precision": 0.9085013146362839,
+          "recall": 0.4172268061984303
+        },
+        "final": {
+          "precision": 0.9044857581442948,
+          "recall": 0.42688669752465286
+        },
+        "raw": {
+          "precision": 0.14442992717733685,
+          "recall": 0.5739585429663916
+        }
+      },
+      "sources": {
+        "thesis\\evidence_snapshot_v6.json": "38b4431645169120717ef3c5258ab97f61e27c9ef24e1e96a20e01ed0e7fcccc"
+      },
+      "native_size": [
+        1100,
+        740
+      ]
+    },
+    {
+      "name": "matching_capacity",
+      "kind": "data_chart",
+      "svg": "thesis\\figures\\vector_v3\\matching_capacity.svg",
+      "pdf": "thesis\\figures\\vector_v3\\matching_capacity.pdf",
+      "svg_sha256": "c65648e4cfa25296f79f1c677129457a2e5de9dbdc4c85a5250499187dd2f1bc",
+      "pdf_sha256": "3f71a8b680aee40031f8b7fb55d049067bdd2f82932941ff2d084ce782e89578",
+      "values": {
+        "stage_tp": [
+          14260,
+          14464,
+          14428,
+          10606
+        ],
+        "net": -3654
+      },
+      "sources": {
+        "thesis\\evidence_snapshot_v6.json": "38b4431645169120717ef3c5258ab97f61e27c9ef24e1e96a20e01ed0e7fcccc"
+      },
+      "native_size": [
+        1100,
+        610
+      ]
+    },
+    {
+      "name": "controlled_recovery",
+      "kind": "data_chart",
+      "svg": "thesis\\figures\\vector_v3\\controlled_recovery.svg",
+      "pdf": "thesis\\figures\\vector_v3\\controlled_recovery.pdf",
+      "svg_sha256": "8f8c7d99865277ab4922da5df24aff7df57a8ca1ea1a5f571da875d373788b0f",
+      "pdf_sha256": "b6fa8fa1d55880dc05cf5464a711abc3a715bb11443e252d81480f780f1675f7",
+      "values": {
+        "single/independent/tau0.55": {
+          "added_tp": 240,
+          "added_fp": 76
+        },
+        "pair/independent/tau0.55": {
+          "added_tp": 225,
+          "added_fp": 76
+        },
+        "shared/independent/tau0.55": {
+          "added_tp": 220,
+          "added_fp": 80
+        }
+      },
+      "sources": {
+        "thesis\\evidence_snapshot_v6.json": "38b4431645169120717ef3c5258ab97f61e27c9ef24e1e96a20e01ed0e7fcccc"
+      },
+      "native_size": [
+        1100,
+        590
+      ]
+    },
+    {
+      "name": "bev_availability",
+      "kind": "data_chart",
+      "svg": "thesis\\figures\\vector_v3\\bev_availability.svg",
+      "pdf": "thesis\\figures\\vector_v3\\bev_availability.pdf",
+      "svg_sha256": "958bf4e6c3c7e71766e4d689321a61b9fca22fa66ec65da567626c01dd66d638",
+      "pdf_sha256": "8b019920ba7366c3e6301eb38bbdefda41434c6e8f45417025fcccbe25674df0",
+      "values": {
+        "displayed": 11827,
+        "located": 4396,
+        "not_located": 7431,
+        "availability": 0.3716918914348525
+      },
+      "sources": {
+        "thesis\\evidence_snapshot_v6.json": "38b4431645169120717ef3c5258ab97f61e27c9ef24e1e96a20e01ed0e7fcccc"
+      },
+      "native_size": [
+        1100,
+        590
+      ]
+    },
+    {
+      "name": "bowl_overlay_coordinates",
+      "kind": "schematic",
+      "svg": "thesis\\figures\\vector_v3\\bowl_overlay_coordinates.svg",
+      "pdf": "thesis\\figures\\vector_v3\\bowl_overlay_coordinates.pdf",
+      "svg_sha256": "7fb72121b6cf3c08c42fe342615ae65d10298aa63fc75af107990fa8fee49005",
+      "pdf_sha256": "3a5542499f157b4ea2a0155e55f47aafac3963d3322e4abd422524f38885f3d9",
+      "values": {},
+      "sources": {
+        "thesis\\archive\\review_v4\\dissertation_en.md": "7b1d94ede021075f757af0711a11235e8800353d1c3615d2c5b57488239d240b"
+      },
+      "native_size": [
+        1100,
+        650
+      ]
+    }
+  ],
+  "svg_count": 11,
+  "vector_pdf_count": 11,
+  "generator_sha256": "da06a4ddd92be055211e03a3326e64fc5347359647e7b7db45b0695f964e64c9",
+  "data_source_sha256": "38b4431645169120717ef3c5258ab97f61e27c9ef24e1e96a20e01ed0e7fcccc",
+  "scope": "Original code-native illustrations and plots of frozen audited results; no new algorithm experiment."
+}

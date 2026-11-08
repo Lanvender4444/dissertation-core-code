@@ -1,0 +1,69 @@
+{
+  "complete": true,
+  "functions": [
+    {
+      "source": "ultralytics\\research\\nonlinear_admission.py",
+      "function": "compile_model",
+      "start_line": 28,
+      "source_sha256": "e432a2be59305657f70fdddaf9f9a9a9c2fa411879043f7a8d0f77aed44e71ff",
+      "extracted_sha256": "bf9f73afbdee63b637e9a1681b04c1ddaa87c2f2b594639034bceed789ddb93c"
+    },
+    {
+      "source": "ultralytics\\research\\nonlinear_admission.py",
+      "function": "predict",
+      "start_line": 33,
+      "source_sha256": "e432a2be59305657f70fdddaf9f9a9a9c2fa411879043f7a8d0f77aed44e71ff",
+      "extracted_sha256": "f8e0e28c2e9a136493a7fd62847c49a355a98c8842de86497087e78f2a05ea46"
+    },
+    {
+      "source": "ultralytics\\research\\protected_reference.py",
+      "function": "objects",
+      "start_line": 10,
+      "source_sha256": "9c2a39b11d79f69c41a1f539f499d8c1ff589facaa825137a5a0f5b11a8cab96",
+      "extracted_sha256": "2e99bbf3a896ed1ae8b7bb553f6e858e7abc9a549289a562d943443087e7c861"
+    },
+    {
+      "source": "ultralytics\\research\\protected_reference.py",
+      "function": "validate",
+      "start_line": 14,
+      "source_sha256": "9c2a39b11d79f69c41a1f539f499d8c1ff589facaa825137a5a0f5b11a8cab96",
+      "extracted_sha256": "65b82e13bda16ad7a8c0aa9e13be278444120f0f7b3a47b90cc7d8ded500003d"
+    },
+    {
+      "source": "ultralytics\\research\\protected_reference.py",
+      "function": "append",
+      "start_line": 57,
+      "source_sha256": "9c2a39b11d79f69c41a1f539f499d8c1ff589facaa825137a5a0f5b11a8cab96",
+      "extracted_sha256": "f185e8576fc67bf28669a9f621b1a37c2b9a88717d4e3568aad13e0e75801da2"
+    },
+    {
+      "source": "ultralytics\\research\\joint_identity_admission.py",
+      "function": "overlap",
+      "start_line": 27,
+      "source_sha256": "8e33995f80181d989c6cbb2f192c28d2907a85ebf902d1abb2b0f3957549c493",
+      "extracted_sha256": "1a611a9a4624e50bd834c30e3f4298aa1952f0e279696d608a68e4a4cd8f8680"
+    },
+    {
+      "source": "ultralytics\\research\\protected_conditional_recovery.py",
+      "function": "conflicts",
+      "start_line": 57,
+      "source_sha256": "a229cb693d02c372204d0b376ceae22fefedd627080420cc721bdefcd99dba40",
+      "extracted_sha256": "75af7a909adb42692194c58da3067811c08003ca8685f7c755c513704289019b"
+    },
+    {
+      "source": "ultralytics\\research\\protected_conditional_recovery.py",
+      "function": "select",
+      "start_line": 71,
+      "source_sha256": "a229cb693d02c372204d0b376ceae22fefedd627080420cc721bdefcd99dba40",
+      "extracted_sha256": "43782e9a5602105071b4a380dc2b28d7d35fc9c91a88aff5fc354712ab2db0a1"
+    },
+    {
+      "source": "scripts\\experiment_cam15_shared.py",
+      "function": "counts",
+      "start_line": 92,
+      "source_sha256": "9150ebd23622ad321bc34006b7f5847b7320555c4f239d5791bfe75348ac356d",
+      "extracted_sha256": "fe184ae85e246a9b8dbd8748fdacb619af7a4c8467ee596ecb5fb5778b7e87ba"
+    }
+  ],
+  "adaptation": "Import scaffolding and P/J namespaces only. Extracted function bodies are unchanged."
+}

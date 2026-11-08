@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "frames": 1655,
+  "report_sha256": "23d289a95a0a591ba4500061d408d46d12f69d234104757443a1feacb42418f7",
+  "fresh_native_observables": true,
+  "gt_free_paths_replayed": true,
+  "native_XML_counts": true,
+  "source_exclusive": true,
+  "protected_final_unchanged": true,
+  "serial_development_prefixes_exact": 200,
+  "cutoff": 0.5314510176623513,
+  "audit_source_sha256": "61bda4a5a743dbd977ef44962bb54c7c60bf26b02a745d277b972f6c9a7a7bf0",
+  "execution_sha256": "743d4a4da9c1524a42feeb308d5acac863afefe6ec45df949a84e8514271e41e",
+  "worker_completion_sha256": {
+    "ultralytics\\experiments\\five_camera_capacity_recovery_20261017\\run01\\locked_execution\\workers\\0\\completion.json": "b2262861f0f3d72f8de1f509c362706864f8e4d1cef3ee25edeb81bb671a8ecb",
+    "ultralytics\\experiments\\five_camera_capacity_recovery_20261017\\run01\\locked_execution\\workers\\1\\completion.json": "6eea1853e5bafbcfae26755f8fec0dbbe05cb9b9d1531df4da0b4939b3bedc0a",
+    "ultralytics\\experiments\\five_camera_capacity_recovery_20261017\\run01\\locked_execution\\workers\\2\\completion.json": "8fa67ffd854fe1dc0e9d6f476a834e48ec34e70dfc729064da0c472b5d271926",
+    "ultralytics\\experiments\\five_camera_capacity_recovery_20261017\\run01\\locked_execution\\workers\\3\\completion.json": "0f6b92259060a2d03cf9d46414bf0a2b7f6f89dac8b3684c183071509eba050e"
+  },
+  "limitations": "Equivalent early termination of unreachable below-lock suffix, NOT threshold/model change. Original slow partial run retained. Offline optimization is not deployment-speed certification."
+}
