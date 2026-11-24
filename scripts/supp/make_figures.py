@@ -68,7 +68,7 @@ for i in range(5):
         if not np.isnan(M[i, j]):
             ax.text(j, i, f'{M[i, j]:.0f}', ha='center', va='center', fontsize=8, color='white' if M[i, j] > 35 else INK)
 ax.set_xticks(range(5), [f'Cam{c}' for c in range(1, 6)]); ax.set_yticks(range(5), [f'Cam{c}' for c in range(1, 6)])
-ax.set_xlabel('Camera j (missed?)'); ax.set_ylabel('Camera i (detected)'); ax.grid(False)
+ax.set_xlabel('Camera j (missed)'); ax.set_ylabel('Camera i (detected)'); ax.grid(False)
 cb = fig.colorbar(im, ax=ax, fraction=.046, pad=.04); cb.set_label('P(miss in j | detected in i) (%)', fontsize=8)
 save(fig, 'e1_conditional_miss')
 
