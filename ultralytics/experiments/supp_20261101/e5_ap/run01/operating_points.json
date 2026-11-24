@@ -1,0 +1,139 @@
+{
+ "B1": {
+  "full": {
+   "npos": 24845,
+   "thresholds": 100745,
+   "R_at_P90": 0.001448983698933387,
+   "P_at_R4485": 0.3389608809393442,
+   "end_point": {
+    "tp": 14464,
+    "fp": 84402,
+    "recall": 0.5821694505936809,
+    "precision": 0.14629903101167235
+   }
+  },
+  "guard_late": {
+   "npos": 11222,
+   "thresholds": 39895,
+   "R_at_P90": 0.0017822135091783995,
+   "P_at_R4485": 0.3154135338345865,
+   "end_point": {
+    "tp": 6196,
+    "fp": 33117,
+    "recall": 0.5521297451434682,
+    "precision": 0.15760689848141837
+   }
+  }
+ },
+ "B2": {
+  "full": {
+   "npos": 24845,
+   "thresholds": 45774,
+   "R_at_P90": 0.03445361239686053,
+   "P_at_R4485": 0.6968730456535335,
+   "end_point": {
+    "tp": 14040,
+    "fp": 30755,
+    "recall": 0.5651036425840209,
+    "precision": 0.3134278379283402
+   }
+  },
+  "guard_late": {
+   "npos": 11222,
+   "thresholds": 19328,
+   "R_at_P90": 0.030030297629656033,
+   "P_at_R4485": 0.6225575068018798,
+   "end_point": {
+    "tp": 5971,
+    "fp": 13052,
+    "recall": 0.5320798431652112,
+    "precision": 0.3138831940282816
+   }
+  }
+ },
+ "protocol": {
+  "iou": 0.5,
+  "ranking": "maximum member detector confidence (box-corrected)",
+  "ties": "one threshold per confidence value",
+  "R_at_P90": "maximum recall over thresholds with precision >= 0.9",
+  "P_at_R4485": "maximum precision over thresholds with recall >= 0.4485"
+ },
+ "A": {
+  "full": {
+   "npos": 24845,
+   "thresholds": 11499,
+   "R_at_P90": 0.4172268061984303,
+   "P_at_R4485": null,
+   "end_point": {
+    "tp": 10366,
+    "fp": 1044,
+    "recall": 0.4172268061984303,
+    "precision": 0.9085013146362839
+   }
+  },
+  "guard_late": {
+   "npos": 11222,
+   "thresholds": 4513,
+   "R_at_P90": 0.3691855284263055,
+   "P_at_R4485": null,
+   "end_point": {
+    "tp": 4143,
+    "fp": 342,
+    "recall": 0.3691855284263055,
+    "precision": 0.9237458193979933
+   }
+  }
+ },
+ "F5P": {
+  "full": {
+   "npos": 24845,
+   "thresholds": 11823,
+   "R_at_P90": 0.42688669752465286,
+   "P_at_R4485": null,
+   "end_point": {
+    "tp": 10606,
+    "fp": 1120,
+    "recall": 0.42688669752465286,
+    "precision": 0.9044857581442948
+   }
+  },
+  "guard_late": {
+   "npos": 11222,
+   "thresholds": 4647,
+   "R_at_P90": 0.37800748529673855,
+   "P_at_R4485": null,
+   "end_point": {
+    "tp": 4242,
+    "fp": 376,
+    "recall": 0.37800748529673855,
+    "precision": 0.9185794716327415
+   }
+  }
+ },
+ "F5R": {
+  "full": {
+   "npos": 24845,
+   "thresholds": 12383,
+   "R_at_P90": 0.4485007043670759,
+   "P_at_R4485": 0.9083720551071982,
+   "end_point": {
+    "tp": 11143,
+    "fp": 1124,
+    "recall": 0.4485007043670759,
+    "precision": 0.9083720551071982
+   }
+  },
+  "guard_late": {
+   "npos": 11222,
+   "thresholds": 4905,
+   "R_at_P90": 0.39449296025663877,
+   "P_at_R4485": null,
+   "end_point": {
+    "tp": 4427,
+    "fp": 445,
+    "recall": 0.39449296025663877,
+    "precision": 0.9086617405582923
+   }
+  }
+ }
+}

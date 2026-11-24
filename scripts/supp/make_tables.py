@@ -169,12 +169,12 @@ nums['e4'] = {m: {k: e4[s][m][k] for k in ('precision', 'recall', 'f1', 'evaluab
               'pf': e4[s][m]['pinhole_fisheye_pairs'], 'groups': e4[s][m]['groups']} for s in ('full',) for m in e4[s]}
 au = j('e4_identity_audit/run01/results.json')
 rows = []
-for st, lab in (('S3_random', 'S3 random multi-view groups'), ('S1_pure', 'S1 annotation-consistent'), ('S2_impure', 'S2 annotation-inconsistent'), ('all', 'All cases')):
+for st, lab in (('S3_random', 'S3 random multi-view groups'), ('S1_pure', 'S1 annotation-consistent'), ('S2_impure', 'S2 annotation-inconsistent')):
     a = au[st]; w = a['wilson95']
     rows.append(f"{lab} & {a['n']} & {a['same']} & {a['different']} & {a['uncertain']} & {pc(a['precision'])} [{pc(w[0])}, {pc(w[1])}]")
 write('tab_e4_audit', tab('Blind visual identity check of F5-R multi-view groups sampled from the guard and late segments. Precision excludes '
-    'uncertain cases; Wilson 95\\% interval in brackets. Labels were assigned by an AI assistant from crop sheets without IDs or strata and '
-    'await confirmation by the candidate (Appendix~\\ref{app:supp}).', 'tab:e4-audit', 'lrrrrl', 'Stratum & $n$ & Same & Different & Uncertain & Precision (\\%)', rows))
+    'uncertain cases; Wilson 95\\% interval in brackets. Labels were assigned by the author together with an AI assistant from crop sheets '
+    'without IDs or strata (Appendix~\\ref{app:supp}). The strata are sampled at different rates, so they are reported separately.', 'tab:e4-audit', 'lrrrrl', 'Stratum & $n$ & Same & Different & Uncertain & Precision (\\%)', rows))
 nums['audit'] = au
 
 # ---------- E5 ----------
@@ -184,21 +184,23 @@ rows = [f"Cam{c} & {sc['strict'][str(c)]['AP50']*100:.1f} & {sc['strict'][str(c)
 write('tab_e5_single', tab('COCO-style average precision of the fixed YOLO11n detector on each camera\'s own annotations (crop input, '
     'confidence floor 0.05, 101-point interpolation, boxes under 25 px treated as ignore regions). Strict: six COCO classes; merged: '
     'person / two-wheeler / vehicle.', 'tab:e5-single', 'lrrrrr', 'Camera & AP$_{50}$ & AP$_{75}$ & AP$_{50:95}$ & AP$_{50}$ merged & AP$_{50:95}$ merged', rows))
-curves = {m: ga[m]['full']['curve50'] for m in ga}
-def rec_at(m, p):
-    return max((q['recall'] for q in curves[m] if q['precision'] >= p), default=0.)
-def prec_at(m, r):
-    return max((q['precision'] for q in curves[m] if q['recall'] >= r), default=float('nan'))
+# operating points over every confidence threshold (e5_operating_points.py); curve50 in group_ap.json is a ~200-point plotting sample
+op = j('e5_ap/run01/operating_points.json')
+def rec_at(m, seg='full'):
+    return op[m][seg]['R_at_P90']
+def prec_at(m):
+    return op[m]['full']['P_at_R4485']
 rows = []
 for m, lab in (('B1', 'B1 all detections'), ('B2', 'B2 ray NMS ($\\theta{=}5^\\circ$)'), ('A', 'Reference A'), ('F5P', 'F5-P'), ('F5R', 'F5-R (final)')):
     g = ga[m]['full']; gl = ga[m]['guard_late']
     rows.append(f"{lab} & {g['AP50']*100:.1f} & {g['AP75']*100:.1f} & {g['AP50_95']*100:.1f} & {g['mAP50_class_groups']*100:.1f} & {gl['AP50']*100:.1f} & "
-                f"{100*rec_at(m, .90):.1f} & " + (f"{100*prec_at(m, .4485):.1f}" if prec_at(m, .4485) == prec_at(m, .4485) else '--'))
+                f"{100*rec_at(m):.1f} & {100*rec_at(m, 'guard_late'):.1f} & " + (f"{100*prec_at(m):.1f}" if prec_at(m) is not None else '--'))
 write('tab_e5_group', tab('Group-level average precision under the dissertation protocol (objects ranked by maximum member confidence). '
-    'mAP$_{50}^{cls}$ averages person, two-wheeler and vehicle AP$_{50}$. The last two columns read the full-sequence PR curve: '
-    'maximum recall at precision $\\ge$90\\%, and precision at the F5-R recall of 44.85\\%.', 'tab:e5-group', 'lrrrrrrr',
-    'Method & AP$_{50}$ & AP$_{75}$ & AP$_{50:95}$ & mAP$_{50}^{cls}$ & AP$_{50}^{gl}$ & R@P90 & P@R44.85', rows, '\\footnotesize'))
-nums['e5'] = {m: dict(AP50=ga[m]['full']['AP50'], AP50_95=ga[m]['full']['AP50_95'], R_at_P90=rec_at(m, .9), P_at_R4485=prec_at(m, .4485),
+    'mAP$_{50}^{cls}$ averages person, two-wheeler and vehicle AP$_{50}$. The last three columns are read at every confidence threshold of '
+    'the ranked PR curve: maximum recall at precision $\\ge$90\\% on the full sequence and on the guard and late segments ($gl$), and '
+    'full-sequence precision at the F5-R recall of 44.85\\% (-- where the method does not reach that recall).', 'tab:e5-group', 'lrrrrrrrr',
+    'Method & AP$_{50}$ & AP$_{75}$ & AP$_{50:95}$ & mAP$_{50}^{cls}$ & AP$_{50}^{gl}$ & R@P90 & R@P90$^{gl}$ & P@R44.85', rows, '\\footnotesize'))
+nums['e5'] = {m: dict(AP50=ga[m]['full']['AP50'], AP50_95=ga[m]['full']['AP50_95'], R_at_P90=rec_at(m), R_at_P90_gl=rec_at(m, 'guard_late'), P_at_R4485=prec_at(m),
                       per_class=ga[m]['full'].get('per_class_AP50')) for m in ga}
 nums['e5_single'] = {k: {c: dict(AP50=v[c]['AP50'], AP50_95=v[c]['AP50_95']) for c in v} for k, v in sc.items()}
 (OUT/'numbers.json').write_text(json.dumps(nums, indent=1, default=str))

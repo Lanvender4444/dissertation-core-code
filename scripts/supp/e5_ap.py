@@ -150,6 +150,7 @@ def group_ap(frames, getter, by_class=False):
         rec = tp/pos; prec = tp/np.maximum(tp+fp, 1e-9)
         env = np.maximum.accumulate(prec[::-1])[::-1]
         ap_all = float(np.sum(np.diff(np.r_[0, rec])*env))
+        # ~200 points kept for plotting only; operating points are read from every threshold by e5_operating_points.py
         curve = [dict(score=float(ev[i][0]), recall=float(rec[i]), precision=float(prec[i]))
                  for i in range(0, len(ev), max(1, len(ev)//200))]
         return ap_all, curve
