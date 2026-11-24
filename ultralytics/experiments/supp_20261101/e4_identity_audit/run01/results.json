@@ -78,5 +78,12 @@
    "uncertain": 2
   }
  },
- "note": "Visual labels were assigned by the AI assistant from blind crop sheets (no IDs or strata shown); they are not a human audit and must be confirmed by the candidate (column candidate_label)."
+ "labels": {
+  "cases": 123,
+  "distinct_groups": 122,
+  "confirmed_by_candidate": 123,
+  "changed_by_candidate": 0,
+  "pending": 0
+ },
+ "note": "visual_label: assigned by the AI assistant from blind crop sheets (no IDs or strata shown); candidate_label: the author's confirmed label. Scores use the confirmed label where present. Strata are sampled at different rates, so \"all\" pools them and is not a population estimate; the random stratum S3 estimates the share of correct groups. Cases c049 (S3) and c071 (S1) are the same group, so the cases cover distinct_groups groups."
 }
